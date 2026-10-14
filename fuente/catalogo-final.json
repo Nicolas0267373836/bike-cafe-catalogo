@@ -1,0 +1,146 @@
+[
+  {
+    "id": "bike-01",
+    "nombre": "RALEIGH 24 GIRL ROSADO VERDE",
+    "precio": "RD$12,500",
+    "descripcion": "Aro 24 para niña: centro americano, aros reforzados, estabilizadoras reforzadas y canasta.",
+    "imagen": "img/01-raleigh-24-girl-rosado-verde.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-02",
+    "nombre": "RALEIGH 12 BOY",
+    "precio": "RD$7,500",
+    "descripcion": "Aro 12 para niño: centro americano, aros y gomas reforzadas, sillín ajustable.",
+    "imagen": "img/02-raleigh-12-boy.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-03",
+    "nombre": "RALEIGH 26 MTB GIRL DISC MORADO",
+    "precio": "RD$17,000",
+    "descripcion": "MTB aro 26 para niña: 8 velocidades, suspensión delantera y frenos de disco.",
+    "imagen": "img/03-raleigh-26-mtb-girl-disc-morado.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-04",
+    "nombre": "RALEIGH 12 AZUL OSCURO",
+    "precio": "RD$7,500",
+    "descripcion": "Aro 12: centro americano, gomas y aros reforzados, sillín ajustable y estabilizadoras.",
+    "imagen": "img/04-raleigh-12-azul-oscuro.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-05",
+    "nombre": "RALEIGH 12 AQUA",
+    "precio": "RD$7,500",
+    "descripcion": "Aro 12: centro americano, estabilizadoras reforzadas, canasta y sillín ajustable.",
+    "imagen": "img/05-raleigh-12-aqua.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-06",
+    "nombre": "RALEIGH 24 MTB DISC BOY NEGRO",
+    "precio": "RD$16,500",
+    "descripcion": "MTB aro 24 para niño: freno de disco, cuadro reforzado, burro y sillín ajustable.",
+    "imagen": "img/06-raleigh-24-mtb-disc-boy-negro.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-07",
+    "nombre": "RALEIGH 24 MTB DISC GIRL VERDE",
+    "precio": "RD$16,500",
+    "descripcion": "MTB aro 24 para niña: freno de disco, cuadro reforzado, burro y sillín ajustable.",
+    "imagen": "img/07-raleigh-24-mtb-disc-girl-verde.jpg",
+    "disponibilidad": "¡Solo queda 1!"
+  },
+  {
+    "id": "bike-08",
+    "nombre": "RALEIGH 16 GIRL MORADO VERDE",
+    "precio": "RD$8,500",
+    "descripcion": "Aro 16 para niña: centro americano, aros reforzados, rueditas de apoyo y canasta.",
+    "imagen": "img/08-raleigh-16-girl-morado-verde.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-09",
+    "nombre": "RALEIGH 20 GIRL MORADO AQUA",
+    "precio": "RD$9,500",
+    "descripcion": "Aro 20 para niña, tipo paseo: canasta frontal, parador y centro americano.",
+    "imagen": "img/09-raleigh-20-girl-morado-aqua.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-10",
+    "nombre": "RALEIGH 20 BOY NEGRO GRIS",
+    "precio": "RD$9,500",
+    "descripcion": "Aro 20 para niño, tipo BMX: centro americano y aros reforzados.",
+    "imagen": "img/10-raleigh-20-boy-negro-gris.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-11",
+    "nombre": "RALEIGH 16 AZUL",
+    "precio": "RD$8,500",
+    "descripcion": "Aro 16: centro americano, aros reforzados y estabilizadoras reforzadas.",
+    "imagen": "img/11-raleigh-16-azul.jpg",
+    "disponibilidad": "¡Solo quedan 2!"
+  },
+  {
+    "id": "bike-12",
+    "nombre": "RALEIGH 20 MTB DISC",
+    "precio": "RD$14,500",
+    "descripcion": "MTB juvenil aro 20: 7 velocidades, suspensión delantera y frenos de disco.",
+    "imagen": "img/12-raleigh-20-mtb-disc.jpg",
+    "disponibilidad": "¡Solo queda 1!"
+  },
+  {
+    "id": "bike-13",
+    "nombre": "RALEIGH CRUISER CORAL AZUL C/PARRILLA",
+    "precio": "RD$23,500",
+    "descripcion": "Playera/cruiser Comfort en aluminio: guardalodos, sillín comfort, canasta y parrilla.",
+    "imagen": "img/13-raleigh-coral-playera-plus.jpeg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-14",
+    "nombre": "RALEIGH CORAL PLAYERA",
+    "precio": "RD$19,500",
+    "descripcion": "Playera/cruiser Comfort en aluminio: guardalodos y sillín comfort extra ancho.",
+    "imagen": "img/14-raleigh-coral-playera.jpeg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-15",
+    "nombre": "RALEIGH 29 BOULDER 3",
+    "precio": "RD$30,500",
+    "descripcion": "MTB aro 29 en aluminio: transmisión Shimano, suspensión hidráulica y frenos de disco hidráulicos. Tallas M y S.",
+    "imagen": "img/15-raleigh-29-boulder.jpeg",
+    "disponibilidad": "En stock"
+  },
+  {
+    "id": "bike-16",
+    "nombre": "RALEIGH 29 MTB DISC ORION NEGRO/AMAR",
+    "precio": "RD$19,500",
+    "descripcion": "MTB aro 29: 21 velocidades, suspensión delantera y frenos de disco.",
+    "imagen": "img/16-raleigh-29-mtb-disc-orion.jpeg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-17",
+    "nombre": "RALEIGH 26 MTB BOY DISC NEGRO",
+    "precio": "RD$17,000",
+    "descripcion": "MTB aro 26 para niño: 7 velocidades, suspensión delantera y frenos de disco.",
+    "imagen": "img/17-raleigh-26-mtb-boy-disc-negro.jpg",
+    "disponibilidad": "Hay existencias"
+  },
+  {
+    "id": "bike-18",
+    "nombre": "RALEIGH MTB DISC GIRL MORADO",
+    "precio": "RD$16,500",
+    "descripcion": "MTB para niña: 6 velocidades, suspensión delantera y frenos de disco.",
+    "imagen": "img/18-raleigh-mtb-disc-girl-morado.jpg",
+    "disponibilidad": "Hay existencias"
+  }
+]

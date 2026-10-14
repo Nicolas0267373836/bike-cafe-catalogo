@@ -16,11 +16,11 @@ Catálogo para **mostrar en visitas a clientes** desde el celular o una tablet. 
 
 | Categoría | Modelos | Desde |
 |---|---|---|
-| Primera bici (12″ y 16″) | Raleigh 12 Boy, 12 azul oscuro, 12 aqua, 16 Girl, 16 azul | RD$6,900 |
-| Niños 20″ y 24″ | Raleigh 20 Girl, 20 Boy (BMX), 24 Girl | RD$8,900 |
-| MTB juvenil (20″–26″) | 20 MTB Disc, 24 MTB Disc Boy, 24 MTB Disc Girl, MTB Disc Girl morado, 26 MTB Girl, 26 MTB Boy | RD$13,900 |
-| Montaña 29″ | 29 MTB Disc Orion, 29 Boulder 3 | RD$18,900 |
-| Paseo | Coral Playera, Cruiser Coral con parrilla | RD$18,900 |
+| Primera bici (12″ y 16″) | Raleigh 12 Boy, 12 azul oscuro, 12 aqua, 16 Girl, 16 azul | RD$7,500 |
+| Niños 20″ y 24″ | Raleigh 20 Girl, 20 Boy (BMX), 24 Girl | RD$9,500 |
+| MTB juvenil (20″–26″) | 20 MTB Disc, 24 MTB Disc Boy, 24 MTB Disc Girl, MTB Disc Girl morado, 26 MTB Girl, 26 MTB Boy | RD$14,500 |
+| Montaña 29″ | 29 MTB Disc Orion, 29 Boulder 3 | RD$19,500 |
+| Paseo | Coral Playera, Cruiser Coral con parrilla | RD$19,500 |
 
 ## Archivos
 
@@ -36,11 +36,13 @@ Catálogo para **mostrar en visitas a clientes** desde el celular o una tablet. 
 
 ## Fuente de los datos
 
+**Precios actualizados el 14-oct-2026** según `fuente/catalogo-final.json` (los de Bike Café). Todo lo demás sale de la tabla de Bicicentro:
+
 `catalogo-bicicletas-bicicentro.md`: datos tomados de bicicentro.com.do el 13-oct-2026. Los chips y la ficha técnica salen solo de esa tabla. Contacto y horario: Instagram de Bike Café.
 
 ## Pendiente de confirmar con Bike Café
 
-1. Que tengan cada modelo y a ese precio (los datos son de Bicicentro).
+1. Que tengan cada modelo (los precios ya son los de Bike Café; la ficha técnica viene de Bicicentro).
 2. No se muestra la disponibilidad («Solo queda 1»), porque es el stock de Bicicentro y no el de Bike Café.
 3. «Garantía de por vida en el cuadro» en todas: confirmar que aplica al comprar en Bike Café.
 4. Raleigh 24 Girl: la tabla dice «estabilizadoras reforzadas», pero la foto no las muestra.
