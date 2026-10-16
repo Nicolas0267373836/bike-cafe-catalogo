@@ -1,7 +1,15 @@
 /* Live storefront data from the isolated WebFact1 public projection. */
 (() => {
  'use strict';
- const cfg=window.WEBFACT_CATALOG;
+ const testCatalog=new URLSearchParams(location.search).get('catalogo')==='prueba-bike-cafe';
+ const cfg=window.WEBFACT_CATALOG && {...window.WEBFACT_CATALOG,slug:testCatalog?'prueba-bike-cafe':window.WEBFACT_CATALOG.slug};
+ window.WEBFACT_TEST_CATALOG=testCatalog;
+ if(testCatalog){
+  document.title='Bike Café · Catálogo de prueba';
+  document.body.classList.add('catalog-test');
+  const banner=document.createElement('p');banner.className='catalog-test-banner';banner.textContent='Catálogo de prueba · Los cambios no afectan a la tienda real. No se realizan pedidos desde esta vista.';document.body.prepend(banner);
+  const robots=document.createElement('meta');robots.name='robots';robots.content='noindex, nofollow';document.head.append(robots);
+ }
  const money=new Intl.NumberFormat('es-DO',{maximumFractionDigits:2});
  let revision=null,running=false;
  const el=(tag,className,text)=>{const n=document.createElement(tag);if(className)n.className=className;if(text!==undefined)n.textContent=text;return n;};

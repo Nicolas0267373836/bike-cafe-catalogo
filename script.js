@@ -15,7 +15,7 @@
   let filtro = 'todas';
   const visibles = () => bicis.filter((b) => filtro === 'todas' || b.dataset.grupo === filtro);
 
-  const urlBici = (id) => `${location.origin}${location.pathname}#${id}`;
+  const urlBici = (id) => `${location.origin}${location.pathname}${location.search}#${id}`;
   const enlaceWA = (b) => {
     const texto = publicado ? `${b.dataset.mensaje}\n${urlBici(b.id)}` : b.dataset.mensaje;
     return `https://wa.me/${WA}?text=${encodeURIComponent(texto)}`;
@@ -78,12 +78,13 @@
     if (!vista.open) return;
     vista.close();
     document.body.style.overflow = '';
-    if (publicado && location.hash) history.replaceState(null, '', location.pathname);
+    if (publicado && location.hash) history.replaceState(null, '', location.pathname+location.search);
     disparador?.focus?.({ preventScroll: true });
   };
   const mover = (paso) => { i = (i + paso + lista.length) % lista.length; pintar(paso); };
 
   document.addEventListener('click', (e) => {
+    if(window.WEBFACT_TEST_CATALOG && e.target.closest('a[href*="wa.me"]')){e.preventDefault();return;}
     const t = e.target.closest('[data-ficha]');
     if (t && e.button === 0 && !e.metaKey && !e.ctrlKey) { e.preventDefault(); abrir(document.getElementById(t.dataset.ficha), t); }
     const p = e.target.closest('[data-presentar]');
