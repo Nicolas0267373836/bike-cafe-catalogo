@@ -122,6 +122,7 @@
     if(vista.open)cerrar();
     bicis=Array.from(document.querySelectorAll('[data-bici]'));secciones=Array.from(document.querySelectorAll('[data-seccion]'));botones=Array.from(document.querySelectorAll('[data-filtro]'));
     botones.forEach(b=>b.addEventListener('click',()=>filtrar(b.dataset.filtro)));
+    if(publicado)bicis.forEach(b=>{const l=$('.boton--wa',b);if(l)l.href=enlaceWA(b);});
     filtrar(botones.some(b=>b.dataset.filtro===filtro)?filtro:'todas',false);
     if(location.hash)desdeHash();
   });

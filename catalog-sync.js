@@ -10,13 +10,13 @@
  function render(data){
   if(!data||!Array.isArray(data.products))throw Error('Sin datos');
   const fragment=document.createDocumentFragment(),filterFragment=document.createDocumentFragment();
-  const all=el('button','filtro','Todas ');all.type='button';all.dataset.filtro='todas';all.append(el('span','',String(data.products.length)));filterFragment.append(all);
+  const all=el('button','filtro','Todas ');all.type='button';all.dataset.filtro='todas';all.setAttribute('aria-pressed','true');all.append(el('span','',String(data.products.length)));filterFragment.append(all);
   const groups=new Map();for(const p of data.products){const category=p.category||'Productos';if(!groups.has(category))groups.set(category,[]);groups.get(category).push(p);}
   
   for(const [category,products] of groups){
    const group='categoria-'+encodeURIComponent(category),section=el('section','grupo');section.dataset.seccion=group;section.id=group;
    const head=el('header','grupo__cabeza');const title=el('h2','grupo__titulo',category);title.id=group+'-titulo';section.setAttribute('aria-labelledby',title.id);head.append(title,el('p','grupo__info',products.length+' '+(products.length===1?'producto':'productos')));section.append(head);
-   const filter=el('button','filtro',category+' ');filter.type='button';filter.dataset.filtro=group;filter.append(el('span','',String(products.length)));filterFragment.append(filter);
+   const filter=el('button','filtro',category+' ');filter.type='button';filter.dataset.filtro=group;filter.setAttribute('aria-pressed','false');filter.append(el('span','',String(products.length)));filterFragment.append(filter);
    const grid=el('div','rejilla');
    for(const p of products){
     const card=el('article','bici');card.id=p.id;card.dataset.bici='';card.dataset.grupo=group;card.dataset.categoria=category;card.dataset.nombre=p.name;card.dataset.mensaje='Hola, Bike Café. Me interesa '+p.name+' de RD$'+money.format(p.price)+'. ¿Me pueden dar más información?';
