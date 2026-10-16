@@ -1,7 +1,8 @@
 /* Bike Café · catálogo simple: filtros, vista a pantalla completa
    («Presentar») con flechas, teclado y deslizar, y cadena con el scroll. */
-(() => {
+(async () => {
   'use strict';
+  await window.catalogReady;
   document.documentElement.classList.add('js');
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -9,8 +10,8 @@
   const publicado = /^https?:$/.test(location.protocol);
   const WA = document.body.dataset.whatsapp || '';
 
-  const bicis = $$('[data-bici]');
-  const secciones = $$('[data-seccion]');
+  let bicis = Array.from(document.querySelectorAll('[data-bici]'));
+  let secciones = Array.from(document.querySelectorAll('[data-seccion]'));
   let filtro = 'todas';
   const visibles = () => bicis.filter((b) => filtro === 'todas' || b.dataset.grupo === filtro);
 
@@ -22,13 +23,13 @@
   if (publicado) bicis.forEach((b) => { const l = $('.boton--wa', b); if (l) l.href = enlaceWA(b); });
 
   /* Filtros */
-  const botones = $$('[data-filtro]');
-  const filtrar = (valor) => {
+  let botones = Array.from(document.querySelectorAll('[data-filtro]'));
+  const filtrar = (valor,scroll=true) => {
     filtro = valor;
     botones.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filtro === valor)));
     secciones.forEach((s) => { s.hidden = !(valor === 'todas' || s.dataset.seccion === valor); });
     const cat = $('.catalogo');
-    if (cat && cat.getBoundingClientRect().top < 0) window.scrollTo({ top: window.scrollY + cat.getBoundingClientRect().top - 70, behavior: 'instant' });
+    if (scroll && cat && cat.getBoundingClientRect().top < 0) window.scrollTo({ top: window.scrollY + cat.getBoundingClientRect().top - 70, behavior: 'instant' });
   };
   botones.forEach((b) => b.addEventListener('click', () => filtrar(b.dataset.filtro)));
 
@@ -117,6 +118,13 @@
   if (location.hash) requestAnimationFrame(desdeHash);
   window.addEventListener('hashchange', desdeHash);
 
+  window.addEventListener('wf:catalog:update',()=>{
+    if(vista.open)cerrar();
+    bicis=Array.from(document.querySelectorAll('[data-bici]'));secciones=Array.from(document.querySelectorAll('[data-seccion]'));botones=Array.from(document.querySelectorAll('[data-filtro]'));
+    botones.forEach(b=>b.addEventListener('click',()=>filtrar(b.dataset.filtro)));
+    filtrar(botones.some(b=>b.dataset.filtro===filtro)?filtro:'todas',false);
+    if(location.hash)desdeHash();
+  });
   /* Cadena del logo */
   const cadena = $('.cadena');
   if (cadena && !sinMov.matches) {

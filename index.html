@@ -10,7 +10,7 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_DO">
   <meta property="og:title" content="Catálogo de bicicletas · Bike Café">
-  <meta property="og:description" content="18 modelos Raleigh con foto y precio, desde RD$7,500.">
+  <meta property="og:description" content="Bicicletas y productos de Bike Café, con precios y disponibilidad actualizados.">
   <!-- Al publicar: usa la URL completa (https://tu-dominio/img/og-bike-cafe.jpg). -->
   <meta property="og:image" content="img/og-bike-cafe.jpg">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
@@ -36,7 +36,7 @@
     <section class="portada" aria-labelledby="titulo">
       <div class="portada__texto">
         <h1 class="portada__titulo" id="titulo">Catálogo de bicicletas</h1>
-        <p class="portada__info"><strong>18 modelos Raleigh</strong> desde RD$7,500. Todos con garantía de por vida en el cuadro.</p>
+        <p class="portada__info">Productos de Bike Café. Consulta sus precios y disponibilidad.</p>
       </div>
       <button class="boton boton--crema boton--grande" type="button" data-presentar data-solo-js><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg><span>Presentar</span></button>
     </section>
@@ -374,7 +374,7 @@
       <div><dt>Teléfono</dt><dd><a href="tel:+18093396088">809-339-6088</a></dd></div>
       <div><dt>Cómo llegar</dt><dd><a href="https://maps.app.goo.gl/RaMpHEC3dZpHzRLd9" target="_blank" rel="noopener">Google Maps</a> · <a href="https://waze.com/ul/hd7q9nbmpe" target="_blank" rel="noopener">Waze</a></dd></div>
     </dl>
-    <p class="pie__nota">Precios en pesos dominicanos (RD$). Pueden cambiar y dependen de la disponibilidad. Catálogo actualizado el 13 de octubre de 2026. · Sitio web por <a href="https://www.webdom.tech" target="_blank" rel="noopener">WebDom</a></p>
+    <p class="pie__nota">Precios en pesos dominicanos (RD$). Pueden cambiar y dependen de la disponibilidad. Catálogo conectado al inventario. · Sitio web por <a href="https://www.webdom.tech" target="_blank" rel="noopener">WebDom</a></p>
   </footer>
 
   <dialog class="vista" id="vista" aria-labelledby="vista-titulo">
@@ -403,6 +403,8 @@
     </div>
   </dialog>
 
+  <script src="catalog-config.js" defer></script>
+  <script src="catalog-sync.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>
