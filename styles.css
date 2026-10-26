@@ -162,6 +162,9 @@ html:not(.js) .filtros { display: none; }
 .bici__chips li { padding: 0.2rem 0.6rem; border: 1px solid var(--espuma); border-radius: 999px; font-size: 0.78rem; font-weight: 600; }
 .bici__pie { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-top: auto; padding-top: 0.6rem; }
 .bici__precio .precio { font-size: 2.2rem; }
+/* Precios de 6 cifras (Scott, Megamo): un poco más chicos y botón compacto para que quepan en la tarjeta. */
+.bici__precio .precio--largo { font-size: 1.8rem; }
+.bici__pie .boton { flex-shrink: 0; padding-inline: 1rem; }
 @media (hover: hover) {
   .bici:hover { transform: translateY(-3px); box-shadow: 0 24px 50px -30px rgba(29, 22, 18, 0.55); }
   .bici:hover .bici__foto img { transform: translateX(2%) scale(1.02); }
@@ -188,7 +191,7 @@ html:not(.js) .filtros { display: none; }
   background: var(--tostado); color: var(--leche); cursor: pointer;
 }
 .vista__cerrar:hover, .vista__nav:hover { background: var(--grano); }
-.vista__foto { position: relative; display: grid; place-items: center; min-height: 0; margin: 0.75rem 0; touch-action: pan-y; }
+.vista__foto { position: relative; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; min-height: 0; margin: 0.75rem 0; touch-action: pan-y; }
 .vista__img {
   width: auto; height: 100%; max-height: 100%; max-width: 100%; aspect-ratio: 3 / 2; object-fit: contain;
   border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #f7f2eb 55%, var(--plato-borde) 100%);

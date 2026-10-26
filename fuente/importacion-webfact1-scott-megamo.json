@@ -1,0 +1,2020 @@
+{
+ "nota": "Mismos campos que lee catalog-sync.js de la proyección pública de WebFact1. Cambia TU-DOMINIO por el dominio publicado. stock vacío = «Consultar disponibilidad».",
+ "products": [
+  {
+   "id": "scott-contrail-20-2027",
+   "name": "Scott Contrail 20 (2027)",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Gris, verde o rosado",
+   "price": 59500,
+   "chips": [
+    "Aro 29",
+    "Shimano Cues 11 vel.",
+    "Freno hidráulico"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "SR Suntour XCT 30 LO, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Cues, 11 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Tektro, 2 pistones"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-2027.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-contrail-20-275",
+   "name": "Scott Contrail 20 aro 27.5",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negra · talla XS",
+   "price": 59500,
+   "chips": [
+    "Aro 27.5",
+    "Shimano Cues 11 vel.",
+    "Freno hidráulico"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "27.5"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio Contrail"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Suntour XCT30-HLO, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Cues, 11 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos Tektro"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-275.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-contrail-20-negra",
+   "name": "Scott Contrail 20 aro 29",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negra",
+   "price": 59500,
+   "chips": [
+    "Aro 29",
+    "Shimano Cues 11 vel.",
+    "Freno hidráulico"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29, aros Alexrims X-20 Disc"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061 Contrail"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Suntour XCT30, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Cues, 11 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Tektro"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-negra.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-50",
+   "name": "Scott Scale 50 (2027)",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negro",
+   "price": 108500,
+   "chips": [
+    "Aro 29",
+    "Deore 12 vel.",
+    "RockShox Judy"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy, 110 mm, con bloqueo"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-50.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-20-carbono",
+   "name": "Scott Scale 20 Carbono (2027)",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negro",
+   "price": 165500,
+   "chips": [
+    "Aro 29",
+    "Cuadro de carbono",
+    "Deore 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Scale HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy, 110 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Shimano"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-20-carbono.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-920",
+   "name": "Scott Scale 920",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negra o blanca",
+   "price": 155500,
+   "chips": [
+    "Aro 29",
+    "Cuadro de carbono",
+    "Deore 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29, aros Alex X-25"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Scale HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy Air, 110 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Shimano Deore"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-920.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-930",
+   "name": "Scott Scale 930",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Negra",
+   "price": 108500,
+   "chips": [
+    "Aro 29",
+    "SRAM NX Eagle 12 vel.",
+    "RockShox Judy"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29, aros Alex X-25"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Scale 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy, 110 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX Eagle, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-930.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-935",
+   "name": "Scott Scale 935",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Verde",
+   "price": 98500,
+   "chips": [
+    "Aro 29",
+    "Deore 12 vel.",
+    "Tija telescópica"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy Silver TK Solo Air, 110 mm, con bloqueo"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano MT200, 180/160 mm"
+    },
+    {
+     "label": "Tija",
+     "value": "Syncros Duncan Dropper"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-935.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-970",
+   "name": "Scott Scale 970",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Gris o rojo",
+   "price": 96500,
+   "chips": [
+    "SRAM NX 12 vel.",
+    "RockShox Judy",
+    "Cuadro 6061"
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Aleación 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano MT200"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros X-27"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-970.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-960",
+   "name": "Scott Scale 960",
+   "category": "MTB Scott · Hardtail",
+   "variant": null,
+   "price": 133500,
+   "chips": [
+    "Aro 29",
+    "FOX 32",
+    "SRAM NX 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aleación 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX 32, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano MT401"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-960.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-scale-960-naranja",
+   "name": "Scott Scale 960",
+   "category": "MTB Scott · Hardtail",
+   "variant": "Naranja",
+   "price": 133500,
+   "chips": [
+    "Aro 29",
+    "FOX 32 Float",
+    "SRAM NX 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Boost, aleación 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX 32 Float, 100 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-960-naranja.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-world-cup-2027",
+   "name": "Scott Spark RC World Cup (2027)",
+   "category": "Doble suspensión Scott",
+   "variant": "Blanco",
+   "price": 690500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "SRAM X0 AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Electrónica, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM X0 Eagle AXS, inalámbrica"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM Motive, 4 pistones"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-world-cup-2027.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-team-issue",
+   "name": "Scott Spark RC Team Issue (2027)",
+   "category": "Doble suspensión Scott",
+   "variant": "Negro",
+   "price": 550500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "SRAM GX AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM GX Eagle AXS, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM Motive, 4 pistones"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-team-issue.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-team",
+   "name": "Scott Spark RC Team (2027)",
+   "category": "Doble suspensión Scott",
+   "variant": "Negro · talla M",
+   "price": 390500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "SRAM Eagle AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox SID, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM Eagle AXS, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM DB6, 4 pistones"
+    },
+    {
+     "label": "Tallas",
+     "value": "M"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-team.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-expert",
+   "name": "Scott Spark RC Expert (2027)",
+   "category": "Doble suspensión Scott",
+   "variant": "Gris",
+   "price": 490500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "Shimano XT Di2"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Fox, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT Di2, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano Deore, 4 pistones"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-expert.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-comp-2027",
+   "name": "Scott Spark RC Comp (2027)",
+   "category": "Doble suspensión Scott",
+   "variant": "Blanco",
+   "price": 330500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "Deore 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMF Gen5"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox SID, 120 mm delante y detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos Shimano"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-comp-2027.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-sl",
+   "name": "Scott Spark RC SL",
+   "category": "Doble suspensión Scott",
+   "variant": null,
+   "price": 744500,
+   "chips": [
+    "Aro 29",
+    "Carbono HMX SL",
+    "SRAM XX SL"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMX SL"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox SID, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM XX SL, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM Motive, 4 pistones"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Silverton"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-sl.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-910",
+   "name": "Scott Spark 910",
+   "category": "Doble suspensión Scott",
+   "variant": "Negra · talla S",
+   "price": 300500,
+   "chips": [
+    "Aro 29",
+    "Carbono HMF",
+    "Shimano XT 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX 130 mm delante · 120 mm detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano XT"
+    },
+    {
+     "label": "Tallas",
+     "value": "S"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-910.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-wc-evo",
+   "name": "Scott Spark RC WC EVO",
+   "category": "Doble suspensión Scott",
+   "variant": null,
+   "price": 605000,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "SRAM XX AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC"
+    },
+    {
+     "label": "Suspensión",
+     "value": "120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM XX Eagle AXS"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM Level, 4 pistones"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Silverton"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-wc-evo.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-970",
+   "name": "Scott Spark 970",
+   "category": "Doble suspensión Scott",
+   "variant": "Azul",
+   "price": 172500,
+   "chips": [
+    "Aro 29",
+    "SRAM NX Eagle 12 vel.",
+    "130/120 mm"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aleación Spark SL"
+    },
+    {
+     "label": "Suspensión",
+     "value": "130 mm delante · 120 mm detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX Eagle, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-970.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-wc-axs",
+   "name": "Scott Spark RC WC AXS",
+   "category": "Doble suspensión Scott",
+   "variant": null,
+   "price": 516500,
+   "chips": [
+    "Aro 29",
+    "Carbono HMX",
+    "SRAM X01 AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC HMX"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM X01 Eagle AXS"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano XTR"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Carbono Syncros Silverton 1.0"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-wc-axs.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-960",
+   "name": "Scott Spark 960",
+   "category": "Doble suspensión Scott",
+   "variant": "Negra",
+   "price": 188500,
+   "chips": [
+    "Aro 29",
+    "Shimano XT",
+    "RockShox Judy"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Spark con suspensión integrada"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Judy 130 mm · X-Fusion 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Shimano"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-960.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-comp-azul",
+   "name": "Scott Spark RC Comp",
+   "category": "Doble suspensión Scott",
+   "variant": "Azul",
+   "price": 228500,
+   "chips": [
+    "Aro 29",
+    "Carbono HMF",
+    "SRAM NX Eagle"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29, aros Syncros X-30SE"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMF"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX, 120 mm delante y detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM NX Eagle, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano Deore"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-comp-azul.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-spark-rc-900-pro",
+   "name": "Scott Spark RC 900 Pro",
+   "category": "Doble suspensión Scott",
+   "variant": null,
+   "price": 396500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "Shimano XTR"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Spark RC"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox SID y FOX Nude 5, 120 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XTR, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano XTR"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-900-pro.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-20",
+   "name": "Scott Foil RC 20",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 402500,
+   "chips": [
+    "Carbono",
+    "Shimano 105 Di2",
+    "Ruedas aero 60 mm"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Road Race"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano 105 Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Aerodinámicas, 60 mm"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Foil Disc HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-20.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-10",
+   "name": "Scott Foil RC 10",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 470500,
+   "chips": [
+    "Carbono",
+    "Ultegra Di2",
+    "Ruedas Syncros 60 mm"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Foil RC HMX, Road Race"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Ultegra Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano Ultegra"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros, 60 mm"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-10-b",
+   "name": "Scott Foil RC 10",
+   "category": "Ruta y carretera Scott",
+   "variant": "Tallas XS y XXS",
+   "price": 470500,
+   "chips": [
+    "Carbono",
+    "Ultegra Di2",
+    "Ruedas Syncros Aero"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Foil RC Disc HMX"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Ultegra Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Capital 1.0 Aero"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Foil Disc HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, XXS"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10-b.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-pro",
+   "name": "Scott Foil RC Pro",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 603000,
+   "chips": [
+    "Carbono",
+    "Dura-Ace Di2",
+    "Ruedas Syncros Aero"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Foil RC Disc HMX"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Dura-Ace Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Capital 1.0S Aero"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Foil Disc HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-pro.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-20-b",
+   "name": "Scott Foil RC 20",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 402500,
+   "chips": [
+    "Carbono",
+    "Shimano 105 Di2",
+    "Frenos de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Foil RC Disc HMX"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano 105 Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Capital 1.0"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Foil Disc HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-20-b.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-foil-rc-10-c",
+   "name": "Scott Foil RC 10",
+   "category": "Ruta y carretera Scott",
+   "variant": "Tallas M y L",
+   "price": 470500,
+   "chips": [
+    "Carbono",
+    "Ultegra Di2",
+    "Frenos de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMX Foil Disc"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Ultegra Di2, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Foil Disc HMX"
+    },
+    {
+     "label": "Cubiertas",
+     "value": "Schwalbe ONE Race-Guard"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10-c.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-addict-rc-pro",
+   "name": "Scott Addict RC Pro",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 650500,
+   "chips": [
+    "Carbono",
+    "Dura-Ace electrónico",
+    "Frenos de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMX Addict RC Disc"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Dura-Ace electrónica, 24 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Addict RC HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-addict-rc-pro.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-addict-rc-15",
+   "name": "Scott Addict RC 15",
+   "category": "Ruta y carretera Scott",
+   "variant": "Carbón",
+   "price": 465500,
+   "chips": [
+    "Carbono",
+    "Ultegra Di2",
+    "Frenos de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono Addict RC Disc HMX"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Ultegra Di2"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco hidráulicos"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Capital 1.0 35 Disc"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Addict RC HMX"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-addict-rc-15.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-speedster-30",
+   "name": "Scott Speedster 30",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 69000,
+   "chips": [
+    "Aluminio 6061",
+    "Shimano Sora 18 vel.",
+    "Freno de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061, geometría Endurance"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Sora, 18 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco mecánicos Tektro"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Speedster HMF Disc"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-speedster-30.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-speedster-20",
+   "name": "Scott Speedster 20",
+   "category": "Ruta y carretera Scott",
+   "variant": null,
+   "price": 77500,
+   "chips": [
+    "Aluminio 6061",
+    "Shimano Tiagra 20 vel.",
+    "Freno de disco"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061 Speedster Disc"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Tiagra, 20 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco mecánicos Shimano BR-RS305, 160 mm"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Speedster HMF Disc"
+    },
+    {
+     "label": "Tallas",
+     "value": "XXS, XS, S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-speedster-20.webp",
+   "stock": null
+  },
+  {
+   "id": "megamo-reason-al-07",
+   "name": "Megamo Reason AL 07 (2027)",
+   "category": "E-Bikes",
+   "variant": "Negro, blanco/rojo o azul/negro",
+   "price": 395500,
+   "chips": [
+    "Aro 29",
+    "160 mm",
+    "Shimano XT 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio, 160 mm de recorrido"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Fox 36 Float"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano Deore"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-al-07.webp",
+   "stock": null
+  },
+  {
+   "id": "megamo-reason-crb-03-axs",
+   "name": "Megamo Reason CRB 03 AXS (2027)",
+   "category": "E-Bikes",
+   "variant": "Negro",
+   "price": 679500,
+   "chips": [
+    "Aro 29",
+    "Carbono",
+    "SRAM Eagle AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono, 160 mm de recorrido"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Fox delante y detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM Eagle AXS, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano XT"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-crb-03-axs.webp",
+   "stock": null
+  },
+  {
+   "id": "megamo-flame-crb-01-race",
+   "name": "Megamo Flame CRB 01 Race",
+   "category": "E-Bikes",
+   "variant": "Navy o green forest",
+   "price": 900500,
+   "chips": [
+    "Full carbono",
+    "170/160 mm",
+    "RockShox"
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Full carbono, 170/160 mm de recorrido"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Horquilla 150 mm y amortiguador RockShox"
+    },
+    {
+     "label": "Transmisión",
+     "value": "12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Shimano, 203 mm"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-flame-crb-01-race.webp",
+   "stock": null
+  },
+  {
+   "id": "megamo-flame-crb-10",
+   "name": "Megamo Flame CRB 10",
+   "category": "E-Bikes",
+   "variant": "Navy azul",
+   "price": 428000,
+   "chips": [
+    "Full carbono",
+    "170/160 mm",
+    "Shimano XT 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Full carbono, 170/160 mm de recorrido"
+    },
+    {
+     "label": "Suspensión",
+     "value": "RockShox Psylo, 150 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos Shimano, 203 mm"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-flame-crb-10.webp",
+   "stock": null
+  },
+  {
+   "id": "megamo-reason-crb-01",
+   "name": "Megamo Reason CRB 01 (2027)",
+   "category": "E-Bikes",
+   "variant": "Naranja, verde o negra",
+   "price": 861500,
+   "chips": [
+    "Aro 29",
+    "Full carbono",
+    "SRAM XX AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29, aros DT Swiss 1501"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Full carbono, 160 mm de recorrido"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Fox delante y detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM XX AXS, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano XT"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-crb-01.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-patron-eride-930",
+   "name": "Scott Patron eRIDE 930",
+   "category": "E-Bikes",
+   "variant": "Verde o negra",
+   "price": 375500,
+   "chips": [
+    "Aro 29",
+    "Bosch CX · 800 Wh",
+    "Deore 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio Patron"
+    },
+    {
+     "label": "Suspensión",
+     "value": "150 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Hidráulicos, 4 pistones"
+    },
+    {
+     "label": "Motor",
+     "value": "Bosch Performance Line CX"
+    },
+    {
+     "label": "Batería",
+     "value": "PowerTube 800 Wh"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-930.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-solace-gravel-20",
+   "name": "Scott Solace Gravel 20",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 510500,
+   "chips": [
+    "Gravel eRIDE",
+    "Carbono",
+    "SRAM Rival XPLR AXS"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "700"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMX Solace eRIDE"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM Rival XPLR AXS"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco SRAM Rival"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros Capital 1.0 40 Disc"
+    },
+    {
+     "label": "Horquilla",
+     "value": "Solace HMF"
+    },
+    {
+     "label": "Tallas",
+     "value": "XS, S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-solace-gravel-20.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-patron-eride-900",
+   "name": "Scott Patron eRIDE 900",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 526000,
+   "chips": [
+    "Bosch CX · 750 Wh",
+    "FOX 160 mm",
+    "Shimano XT 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Carbono / aleación"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX, 160 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano XT, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Disco Shimano XT"
+    },
+    {
+     "label": "Motor",
+     "value": "Bosch CX"
+    },
+    {
+     "label": "Batería",
+     "value": "PowerTube 750 Wh"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-900.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-lumen-eride-900",
+   "name": "Scott Lumen eRIDE 900",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 673000,
+   "chips": [
+    "Motor TQ",
+    "Carbono HMX",
+    "SRAM GX AXS"
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Carbono HMX"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM GX Eagle AXS"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano XT"
+    },
+    {
+     "label": "Motor",
+     "value": "TQ"
+    },
+    {
+     "label": "Batería",
+     "value": "360 Wh"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-lumen-eride-900.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-patron-eride-910",
+   "name": "Scott Patron eRIDE 910",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 495500,
+   "chips": [
+    "Aro 29",
+    "Bosch CX · 800 Wh",
+    "150 mm"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Carbono delante, aluminio detrás"
+    },
+    {
+     "label": "Suspensión",
+     "value": "150 mm delante y detrás"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano Deore"
+    },
+    {
+     "label": "Motor",
+     "value": "Bosch CX"
+    },
+    {
+     "label": "Batería",
+     "value": "800 Wh"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-910.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-patron-eride-920",
+   "name": "Scott Patron eRIDE 920",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 435500,
+   "chips": [
+    "Aro 29",
+    "Bosch CX · 800 Wh",
+    "Deore 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "29"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio"
+    },
+    {
+     "label": "Suspensión",
+     "value": "Doble, 150 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Deore, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano"
+    },
+    {
+     "label": "Motor",
+     "value": "Bosch CX"
+    },
+    {
+     "label": "Batería",
+     "value": "800 Wh"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-920.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-strike-eride-940",
+   "name": "Scott Strike eRIDE 940",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 330500,
+   "chips": [
+    "Bosch CX · 500 Wh",
+    "140 mm",
+    "SRAM 12 vel."
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Aleación"
+    },
+    {
+     "label": "Suspensión",
+     "value": "140 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Shimano, 4 pistones"
+    },
+    {
+     "label": "Motor",
+     "value": "Bosch CX"
+    },
+    {
+     "label": "Batería",
+     "value": "500 Wh"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Syncros MD30"
+    },
+    {
+     "label": "Tallas",
+     "value": "S, M, L, XL"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-strike-eride-940.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-voltage-eride-900",
+   "name": "Scott Voltage eRIDE 900 Tuned",
+   "category": "E-Bikes",
+   "variant": null,
+   "price": 779000,
+   "chips": [
+    "Motor TQ 50 Nm",
+    "Carbono",
+    "FOX 160/155 mm"
+   ],
+   "specs": [
+    {
+     "label": "Cuadro",
+     "value": "Carbono"
+    },
+    {
+     "label": "Suspensión",
+     "value": "FOX, 160/155 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "SRAM GX AXS, 12 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "SRAM Code, 4 pistones"
+    },
+    {
+     "label": "Motor",
+     "value": "TQ, 50 Nm"
+    },
+    {
+     "label": "Batería",
+     "value": "360 Wh"
+    },
+    {
+     "label": "Tallas",
+     "value": "M, L"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-voltage-eride-900.webp",
+   "stock": null
+  }
+ ]
+}
