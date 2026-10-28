@@ -3,18 +3,18 @@
    a pantalla completa para pasar bici por bici con el dedo. */
 
 :root {
-  --espresso: #16110d;
-  --tostado: #221a14;
-  --grano: #3b2d23;
-  --humo: #b9ab9b;
-  --leche: #f5f0e8;
+  --espresso: #111111;
+  --tostado: #241b16;
+  --grano: #493324;
+  --humo: #cbbfb7;
+  --leche: #ffffff;
   --porcelana: #ffffff;
-  --espuma: #e6dccf;
-  --tinta: #1d1612;
-  --tinta-suave: #6b5d52;
-  --crema: #f2b04f;
-  --crema-honda: #8e5212;
-  --plato-borde: #ece3d7;
+  --espuma: #e7ded8;
+  --tinta: #171412;
+  --tinta-suave: #6e5c51;
+  --crema: #d8c0ad;
+  --crema-honda: #704b38;
+  --plato-borde: #eee9e5;
 
   --f-display: "Big Shoulders", "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
   --f-texto: "Figtree", ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -57,7 +57,7 @@ html:not(.js) [data-solo-js] { display: none !important; }
 
 /* Botones */
 .boton {
-  --bg: var(--crema); --fg: var(--espresso); --bd: transparent;
+  --bg: var(--crema-honda); --fg: var(--porcelana); --bd: transparent;
   display: inline-flex; align-items: center; justify-content: center; gap: 0.5em;
   min-height: 48px; padding: 0.7rem 1.2rem;
   border: 1.5px solid var(--bd); border-radius: 999px;
@@ -69,7 +69,7 @@ html:not(.js) [data-solo-js] { display: none !important; }
 .boton:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -14px rgba(0, 0, 0, 0.6); }
 .boton:active { transform: scale(0.97); box-shadow: none; }
 .boton:focus-visible { border-radius: 999px; }
-.boton--crema:hover { --bg: #f6c06d; }
+.boton--crema:hover { --bg: var(--grano); }
 .boton--wa { --bg: var(--tinta); --fg: var(--leche); }
 .boton--wa:hover { --bg: #000; }
 .boton--chico { min-height: 42px; padding: 0.5rem 1rem; font-size: 0.92rem; }
@@ -105,14 +105,14 @@ html:not(.js) [data-solo-js] { display: none !important; }
 .cadena { position: relative; height: 34px; overflow: hidden; background: linear-gradient(to bottom, var(--espresso) 50%, var(--leche) 50%); }
 .cadena__svg { width: calc(100% + 180px); max-width: none; height: 34px; transform: translate3d(calc(var(--avance, 0) * -1px), 0, 0); }
 .cadena__ext { fill: var(--crema); }
-.cadena__int { fill: #b9741f; }
+.cadena__int { fill: var(--crema-honda); }
 .cadena__pin { fill: var(--espresso); }
 
 /* Filtros */
 .filtros {
   position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10;
   padding: 0.7rem var(--margen);
-  background: rgba(245, 240, 232, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--espuma);
 }
@@ -151,7 +151,7 @@ html:not(.js) .filtros { display: none; }
 .bici__abrir { display: block; border-radius: 14px; }
 .bici__foto {
   display: block; aspect-ratio: 3 / 2; border-radius: 14px; overflow: hidden; isolation: isolate;
-  background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #f7f2eb 55%, var(--plato-borde) 100%);
+  background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #faf8f6 55%, var(--plato-borde) 100%);
 }
 .bici__foto img { width: 100%; height: 100%; object-fit: cover; mix-blend-mode: multiply; transition: transform 0.5s var(--ease); }
 .bici__cuerpo { display: flex; flex-direction: column; flex: 1; gap: 0.5rem; padding: 0.9rem 0.6rem 0.4rem; }
@@ -194,7 +194,7 @@ html:not(.js) .filtros { display: none; }
 .vista__foto { position: relative; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; min-height: 0; margin: 0.75rem 0; touch-action: pan-y; }
 .vista__img {
   width: auto; height: 100%; max-height: 100%; max-width: 100%; aspect-ratio: 3 / 2; object-fit: contain;
-  border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #f7f2eb 55%, var(--plato-borde) 100%);
+  border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #faf8f6 55%, var(--plato-borde) 100%);
 }
 .vista__img.es-entrando { animation: entrar 0.4s var(--ease) both; }
 @keyframes entrar { from { opacity: 0; transform: translateX(calc(var(--dir, 1) * 6%)); } }
@@ -254,5 +254,5 @@ html:not(.js) .filtros { display: none; }
   .cadena__svg { transform: none !important; }
 }
 
-.catalog-status,.catalog-empty{font:14px/1.6 sans-serif;padding:12px 20px;max-width:1400px;margin:auto;color:#746552}.catalog-status:empty{display:none}.bici__stock{font-size:12px;color:#536546;margin:10px 0}.bici__stock--out{color:#9b5d46}
-.catalog-test-banner{position:relative;z-index:10;background:#fff2cf;color:#71501b;text-align:center;padding:12px 20px;font:13px/1.5 sans-serif;margin:0}.catalog-test a[href*="wa.me"]{opacity:.5}
+.catalog-status,.catalog-empty{font:14px/1.6 sans-serif;padding:12px 20px;max-width:1400px;margin:auto;color:var(--tinta-suave)}.catalog-status:empty{display:none}.bici__stock{font-size:12px;color:var(--tinta-suave);margin:10px 0}.bici__stock--out{color:var(--crema-honda)}
+.catalog-test-banner{position:relative;z-index:10;background:var(--porcelana);color:var(--crema-honda);border-bottom:1px solid var(--espuma);text-align:center;padding:12px 20px;font:13px/1.5 sans-serif;margin:0}.catalog-test a[href*="wa.me"]{opacity:.5}
