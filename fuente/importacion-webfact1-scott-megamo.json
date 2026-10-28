@@ -1,5 +1,5 @@
 {
- "nota": "Mismos campos que lee catalog-sync.js de la proyección pública de WebFact1. Cambia TU-DOMINIO por el dominio publicado. stock vacío = «Consultar disponibilidad».",
+ "nota": "Mismos campos que lee catalog-sync.js de la proyección pública de WebFact1. Fotos en el dominio publicado bike-cafe-catalogo.vercel.app. stock vacío = «Consultar disponibilidad».",
  "products": [
   {
    "id": "scott-contrail-20-2027",
@@ -39,7 +39,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-2027.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-contrail-20-2027.webp",
    "stock": null
   },
   {
@@ -80,7 +80,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-275.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-contrail-20-275.webp",
    "stock": null
   },
   {
@@ -121,7 +121,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contrail-20-negra.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-contrail-20-negra.webp",
    "stock": null
   },
   {
@@ -162,7 +162,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-50.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-50.webp",
    "stock": null
   },
   {
@@ -203,7 +203,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-20-carbono.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-20-carbono.webp",
    "stock": null
   },
   {
@@ -244,7 +244,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-920.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-920.webp",
    "stock": null
   },
   {
@@ -285,7 +285,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-930.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-930.webp",
    "stock": null
   },
   {
@@ -330,7 +330,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-935.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-935.webp",
    "stock": null
   },
   {
@@ -371,7 +371,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-970.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-970.webp",
    "stock": null
   },
   {
@@ -412,7 +412,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-960.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-960.webp",
    "stock": null
   },
   {
@@ -457,7 +457,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-scale-960-naranja.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-scale-960-naranja.webp",
    "stock": null
   },
   {
@@ -498,7 +498,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-world-cup-2027.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-world-cup-2027.webp",
    "stock": null
   },
   {
@@ -539,7 +539,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-team-issue.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-team-issue.webp",
    "stock": null
   },
   {
@@ -580,7 +580,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-team.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-team.webp",
    "stock": null
   },
   {
@@ -621,7 +621,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-expert.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-expert.webp",
    "stock": null
   },
   {
@@ -662,7 +662,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-comp-2027.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-comp-2027.webp",
    "stock": null
   },
   {
@@ -707,7 +707,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-sl.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-sl.webp",
    "stock": null
   },
   {
@@ -748,7 +748,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-910.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-910.webp",
    "stock": null
   },
   {
@@ -793,7 +793,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-wc-evo.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-wc-evo.webp",
    "stock": null
   },
   {
@@ -834,7 +834,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-970.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-970.webp",
    "stock": null
   },
   {
@@ -879,7 +879,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-wc-axs.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-wc-axs.webp",
    "stock": null
   },
   {
@@ -920,7 +920,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-960.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-960.webp",
    "stock": null
   },
   {
@@ -961,7 +961,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-comp-azul.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-comp-azul.webp",
    "stock": null
   },
   {
@@ -1002,7 +1002,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-spark-rc-900-pro.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-spark-rc-900-pro.webp",
    "stock": null
   },
   {
@@ -1047,7 +1047,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-20.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-20.webp",
    "stock": null
   },
   {
@@ -1088,7 +1088,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-10.webp",
    "stock": null
   },
   {
@@ -1133,7 +1133,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10-b.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-10-b.webp",
    "stock": null
   },
   {
@@ -1178,7 +1178,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-pro.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-pro.webp",
    "stock": null
   },
   {
@@ -1223,7 +1223,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-20-b.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-20-b.webp",
    "stock": null
   },
   {
@@ -1268,7 +1268,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-foil-rc-10-c.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-foil-rc-10-c.webp",
    "stock": null
   },
   {
@@ -1309,7 +1309,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-addict-rc-pro.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-addict-rc-pro.webp",
    "stock": null
   },
   {
@@ -1354,7 +1354,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-addict-rc-15.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-addict-rc-15.webp",
    "stock": null
   },
   {
@@ -1395,7 +1395,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-speedster-30.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-speedster-30.webp",
    "stock": null
   },
   {
@@ -1436,7 +1436,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-speedster-20.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-speedster-20.webp",
    "stock": null
   },
   {
@@ -1477,7 +1477,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-al-07.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/megamo-reason-al-07.webp",
    "stock": null
   },
   {
@@ -1518,7 +1518,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-crb-03-axs.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/megamo-reason-crb-03-axs.webp",
    "stock": null
   },
   {
@@ -1555,7 +1555,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-flame-crb-01-race.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/megamo-flame-crb-01-race.webp",
    "stock": null
   },
   {
@@ -1592,7 +1592,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-flame-crb-10.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/megamo-flame-crb-10.webp",
    "stock": null
   },
   {
@@ -1633,7 +1633,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/megamo-reason-crb-01.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/megamo-reason-crb-01.webp",
    "stock": null
   },
   {
@@ -1682,7 +1682,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-930.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-patron-eride-930.webp",
    "stock": null
   },
   {
@@ -1727,7 +1727,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-solace-gravel-20.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-solace-gravel-20.webp",
    "stock": null
   },
   {
@@ -1772,7 +1772,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-900.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-patron-eride-900.webp",
    "stock": null
   },
   {
@@ -1821,7 +1821,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-lumen-eride-900.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-lumen-eride-900.webp",
    "stock": null
   },
   {
@@ -1870,7 +1870,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-910.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-patron-eride-910.webp",
    "stock": null
   },
   {
@@ -1919,7 +1919,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-patron-eride-920.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-patron-eride-920.webp",
    "stock": null
   },
   {
@@ -1968,7 +1968,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-strike-eride-940.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-strike-eride-940.webp",
    "stock": null
   },
   {
@@ -2013,7 +2013,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-voltage-eride-900.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-voltage-eride-900.webp",
    "stock": null
   },
   {
@@ -2058,7 +2058,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-roxter-20-naranja.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-roxter-20-naranja.webp",
    "stock": null
   },
   {
@@ -2099,7 +2099,7 @@
     }
    ],
    "description": null,
-   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contessa-24.webp",
+   "imageUrl": "https://bike-cafe-catalogo.vercel.app/img/bicis/scott-contessa-24.webp",
    "stock": null
   }
  ]

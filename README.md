@@ -45,6 +45,8 @@ Paleta visual: negro, marrón y blanco. Los colores se definen en las variables 
 
 Desde el 16-oct-2026 la página lee productos, precios y disponibilidad del inventario WebFact1 (`catalog-config.js` y `catalog-sync.js`) y reemplaza con ellos el HTML al cargar. El HTML de `index.html` queda como respaldo (sin JavaScript) y como referencia. Para que las bicis Scott y Megamo aparezcan en la página en vivo hay que cargarlas en WebFact1 (ver `fuente/importacion-webfact1-scott-megamo.csv`).
 
+Actualización del 28-oct-2026: el inventario real `bike-cafe` contiene 67 productos (18 Raleigh conservados y 49 Scott/Megamo actualizados o añadidos). El JSON de importación utiliza las fotos públicas de `https://bike-cafe-catalogo.vercel.app/img/bicis/`; el CSV mantiene las rutas relativas en su columna `archivo_foto`. Las existencias y los costos anteriores se conservan; las cantidades nuevas quedan por confirmar. El inventario de prueba no se modifica en esta actualización.
+
 ## Bicis Scott y Megamo (agregadas el 25-oct-2026)
 
 Datos, descripción y tallas tomados de la página de cada producto en bicicentro.com.do (`fuente/bicicentro-scott-megamo-2026-10-25.jsonl`). Las fotos salen del PDF `fotos-bicicentro` (foto principal de cada página), recortadas y puestas sobre fondo blanco con el mismo encuadre que las Raleigh. Son de baja resolución: se ven bien en tarjeta, algo suaves a pantalla completa. Para mejorarlas, `fuente/descargar-fotos-bicicentro.ps1` baja las originales.
