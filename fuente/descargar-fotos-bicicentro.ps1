@@ -50,7 +50,9 @@ $fotos = @(
   @{ id = "scott-patron-eride-910"; url = "https://bicicentro.com.do/wp-content/uploads/2026/01/16261.png"; ext = ".png" },
   @{ id = "scott-patron-eride-920"; url = "https://bicicentro.com.do/wp-content/uploads/2026/01/16253.png"; ext = ".png" },
   @{ id = "scott-strike-eride-940"; url = "https://bicicentro.com.do/wp-content/uploads/2023/11/Sin-titulo-1-2-3.jpg"; ext = ".jpg" },
-  @{ id = "scott-voltage-eride-900"; url = "https://bicicentro.com.do/wp-content/uploads/2024/11/4913.png"; ext = ".png" }
+  @{ id = "scott-voltage-eride-900"; url = "https://bicicentro.com.do/wp-content/uploads/2024/11/4913.png"; ext = ".png" },
+  @{ id = "scott-roxter-20-naranja"; url = "https://bicicentro.com.do/wp-content/uploads/2026/10/scott-roxter-20-naranja-medio-lado-600x600.jpg"; ext = ".jpg" },
+  @{ id = "scott-contessa-24"; url = "https://bicicentro.com.do/wp-content/uploads/2023/11/1279-1-600x480.png"; ext = ".png" }
 )
 $ok = 0; $fallas = @()
 foreach ($f in $fotos) {

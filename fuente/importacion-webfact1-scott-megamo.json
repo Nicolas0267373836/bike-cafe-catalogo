@@ -6,7 +6,7 @@
    "name": "Scott Contrail 20 (2027)",
    "category": "MTB Scott · Hardtail",
    "variant": "Gris, verde o rosado",
-   "price": 59500,
+   "price": 59000,
    "chips": [
     "Aro 29",
     "Shimano Cues 11 vel.",
@@ -47,7 +47,7 @@
    "name": "Scott Contrail 20 aro 27.5",
    "category": "MTB Scott · Hardtail",
    "variant": "Negra · talla XS",
-   "price": 59500,
+   "price": 59000,
    "chips": [
     "Aro 27.5",
     "Shimano Cues 11 vel.",
@@ -88,7 +88,7 @@
    "name": "Scott Contrail 20 aro 29",
    "category": "MTB Scott · Hardtail",
    "variant": "Negra",
-   "price": 59500,
+   "price": 59000,
    "chips": [
     "Aro 29",
     "Shimano Cues 11 vel.",
@@ -129,7 +129,7 @@
    "name": "Scott Scale 50 (2027)",
    "category": "MTB Scott · Hardtail",
    "variant": "Negro",
-   "price": 108500,
+   "price": 108000,
    "chips": [
     "Aro 29",
     "Deore 12 vel.",
@@ -170,7 +170,7 @@
    "name": "Scott Scale 20 Carbono (2027)",
    "category": "MTB Scott · Hardtail",
    "variant": "Negro",
-   "price": 165500,
+   "price": 165000,
    "chips": [
     "Aro 29",
     "Cuadro de carbono",
@@ -211,7 +211,7 @@
    "name": "Scott Scale 920",
    "category": "MTB Scott · Hardtail",
    "variant": "Negra o blanca",
-   "price": 155500,
+   "price": 155000,
    "chips": [
     "Aro 29",
     "Cuadro de carbono",
@@ -252,7 +252,7 @@
    "name": "Scott Scale 930",
    "category": "MTB Scott · Hardtail",
    "variant": "Negra",
-   "price": 108500,
+   "price": 108000,
    "chips": [
     "Aro 29",
     "SRAM NX Eagle 12 vel.",
@@ -293,7 +293,7 @@
    "name": "Scott Scale 935",
    "category": "MTB Scott · Hardtail",
    "variant": "Verde",
-   "price": 98500,
+   "price": 98000,
    "chips": [
     "Aro 29",
     "Deore 12 vel.",
@@ -338,7 +338,7 @@
    "name": "Scott Scale 970",
    "category": "MTB Scott · Hardtail",
    "variant": "Gris o rojo",
-   "price": 96500,
+   "price": 96000,
    "chips": [
     "SRAM NX 12 vel.",
     "RockShox Judy",
@@ -379,7 +379,7 @@
    "name": "Scott Scale 960",
    "category": "MTB Scott · Hardtail",
    "variant": null,
-   "price": 133500,
+   "price": 133000,
    "chips": [
     "Aro 29",
     "FOX 32",
@@ -420,7 +420,7 @@
    "name": "Scott Scale 960",
    "category": "MTB Scott · Hardtail",
    "variant": "Naranja",
-   "price": 133500,
+   "price": 133000,
    "chips": [
     "Aro 29",
     "FOX 32 Float",
@@ -465,7 +465,7 @@
    "name": "Scott Spark RC World Cup (2027)",
    "category": "Doble suspensión Scott",
    "variant": "Blanco",
-   "price": 690500,
+   "price": 690000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -506,7 +506,7 @@
    "name": "Scott Spark RC Team Issue (2027)",
    "category": "Doble suspensión Scott",
    "variant": "Negro",
-   "price": 550500,
+   "price": 550000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -547,7 +547,7 @@
    "name": "Scott Spark RC Team (2027)",
    "category": "Doble suspensión Scott",
    "variant": "Negro · talla M",
-   "price": 390500,
+   "price": 390000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -588,7 +588,7 @@
    "name": "Scott Spark RC Expert (2027)",
    "category": "Doble suspensión Scott",
    "variant": "Gris",
-   "price": 490500,
+   "price": 490000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -629,7 +629,7 @@
    "name": "Scott Spark RC Comp (2027)",
    "category": "Doble suspensión Scott",
    "variant": "Blanco",
-   "price": 330500,
+   "price": 330000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -670,7 +670,7 @@
    "name": "Scott Spark RC SL",
    "category": "Doble suspensión Scott",
    "variant": null,
-   "price": 744500,
+   "price": 744000,
    "chips": [
     "Aro 29",
     "Carbono HMX SL",
@@ -715,7 +715,7 @@
    "name": "Scott Spark 910",
    "category": "Doble suspensión Scott",
    "variant": "Negra · talla S",
-   "price": 300500,
+   "price": 300000,
    "chips": [
     "Aro 29",
     "Carbono HMF",
@@ -756,7 +756,7 @@
    "name": "Scott Spark RC WC EVO",
    "category": "Doble suspensión Scott",
    "variant": null,
-   "price": 605000,
+   "price": 604800,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -801,7 +801,7 @@
    "name": "Scott Spark 970",
    "category": "Doble suspensión Scott",
    "variant": "Azul",
-   "price": 172500,
+   "price": 172000,
    "chips": [
     "Aro 29",
     "SRAM NX Eagle 12 vel.",
@@ -842,7 +842,7 @@
    "name": "Scott Spark RC WC AXS",
    "category": "Doble suspensión Scott",
    "variant": null,
-   "price": 516500,
+   "price": 516000,
    "chips": [
     "Aro 29",
     "Carbono HMX",
@@ -887,7 +887,7 @@
    "name": "Scott Spark 960",
    "category": "Doble suspensión Scott",
    "variant": "Negra",
-   "price": 188500,
+   "price": 188000,
    "chips": [
     "Aro 29",
     "Shimano XT",
@@ -928,7 +928,7 @@
    "name": "Scott Spark RC Comp",
    "category": "Doble suspensión Scott",
    "variant": "Azul",
-   "price": 228500,
+   "price": 228000,
    "chips": [
     "Aro 29",
     "Carbono HMF",
@@ -969,7 +969,7 @@
    "name": "Scott Spark RC 900 Pro",
    "category": "Doble suspensión Scott",
    "variant": null,
-   "price": 396500,
+   "price": 396000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -1010,7 +1010,7 @@
    "name": "Scott Foil RC 20",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 402500,
+   "price": 402000,
    "chips": [
     "Carbono",
     "Shimano 105 Di2",
@@ -1055,7 +1055,7 @@
    "name": "Scott Foil RC 10",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 470500,
+   "price": 469950,
    "chips": [
     "Carbono",
     "Ultegra Di2",
@@ -1096,7 +1096,7 @@
    "name": "Scott Foil RC 10",
    "category": "Ruta y carretera Scott",
    "variant": "Tallas XS y XXS",
-   "price": 470500,
+   "price": 469950,
    "chips": [
     "Carbono",
     "Ultegra Di2",
@@ -1141,7 +1141,7 @@
    "name": "Scott Foil RC Pro",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 603000,
+   "price": 602500,
    "chips": [
     "Carbono",
     "Dura-Ace Di2",
@@ -1186,7 +1186,7 @@
    "name": "Scott Foil RC 20",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 402500,
+   "price": 402000,
    "chips": [
     "Carbono",
     "Shimano 105 Di2",
@@ -1231,7 +1231,7 @@
    "name": "Scott Foil RC 10",
    "category": "Ruta y carretera Scott",
    "variant": "Tallas M y L",
-   "price": 470500,
+   "price": 470000,
    "chips": [
     "Carbono",
     "Ultegra Di2",
@@ -1276,7 +1276,7 @@
    "name": "Scott Addict RC Pro",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 650500,
+   "price": 650000,
    "chips": [
     "Carbono",
     "Dura-Ace electrónico",
@@ -1317,7 +1317,7 @@
    "name": "Scott Addict RC 15",
    "category": "Ruta y carretera Scott",
    "variant": "Carbón",
-   "price": 465500,
+   "price": 465000,
    "chips": [
     "Carbono",
     "Ultegra Di2",
@@ -1362,7 +1362,7 @@
    "name": "Scott Speedster 30",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 69000,
+   "price": 68600,
    "chips": [
     "Aluminio 6061",
     "Shimano Sora 18 vel.",
@@ -1403,7 +1403,7 @@
    "name": "Scott Speedster 20",
    "category": "Ruta y carretera Scott",
    "variant": null,
-   "price": 77500,
+   "price": 77000,
    "chips": [
     "Aluminio 6061",
     "Shimano Tiagra 20 vel.",
@@ -1444,7 +1444,7 @@
    "name": "Megamo Reason AL 07 (2027)",
    "category": "E-Bikes",
    "variant": "Negro, blanco/rojo o azul/negro",
-   "price": 395500,
+   "price": 395000,
    "chips": [
     "Aro 29",
     "160 mm",
@@ -1485,7 +1485,7 @@
    "name": "Megamo Reason CRB 03 AXS (2027)",
    "category": "E-Bikes",
    "variant": "Negro",
-   "price": 679500,
+   "price": 679000,
    "chips": [
     "Aro 29",
     "Carbono",
@@ -1526,7 +1526,7 @@
    "name": "Megamo Flame CRB 01 Race",
    "category": "E-Bikes",
    "variant": "Navy o green forest",
-   "price": 900500,
+   "price": 900000,
    "chips": [
     "Full carbono",
     "170/160 mm",
@@ -1563,7 +1563,7 @@
    "name": "Megamo Flame CRB 10",
    "category": "E-Bikes",
    "variant": "Navy azul",
-   "price": 428000,
+   "price": 427500,
    "chips": [
     "Full carbono",
     "170/160 mm",
@@ -1600,7 +1600,7 @@
    "name": "Megamo Reason CRB 01 (2027)",
    "category": "E-Bikes",
    "variant": "Naranja, verde o negra",
-   "price": 861500,
+   "price": 861000,
    "chips": [
     "Aro 29",
     "Full carbono",
@@ -1641,7 +1641,7 @@
    "name": "Scott Patron eRIDE 930",
    "category": "E-Bikes",
    "variant": "Verde o negra",
-   "price": 375500,
+   "price": 375000,
    "chips": [
     "Aro 29",
     "Bosch CX · 800 Wh",
@@ -1690,7 +1690,7 @@
    "name": "Scott Solace Gravel 20",
    "category": "E-Bikes",
    "variant": null,
-   "price": 510500,
+   "price": 510000,
    "chips": [
     "Gravel eRIDE",
     "Carbono",
@@ -1735,7 +1735,7 @@
    "name": "Scott Patron eRIDE 900",
    "category": "E-Bikes",
    "variant": null,
-   "price": 526000,
+   "price": 525500,
    "chips": [
     "Bosch CX · 750 Wh",
     "FOX 160 mm",
@@ -1780,7 +1780,7 @@
    "name": "Scott Lumen eRIDE 900",
    "category": "E-Bikes",
    "variant": null,
-   "price": 673000,
+   "price": 672600,
    "chips": [
     "Motor TQ",
     "Carbono HMX",
@@ -1829,7 +1829,7 @@
    "name": "Scott Patron eRIDE 910",
    "category": "E-Bikes",
    "variant": null,
-   "price": 495500,
+   "price": 495000,
    "chips": [
     "Aro 29",
     "Bosch CX · 800 Wh",
@@ -1878,7 +1878,7 @@
    "name": "Scott Patron eRIDE 920",
    "category": "E-Bikes",
    "variant": null,
-   "price": 435500,
+   "price": 435000,
    "chips": [
     "Aro 29",
     "Bosch CX · 800 Wh",
@@ -1927,7 +1927,7 @@
    "name": "Scott Strike eRIDE 940",
    "category": "E-Bikes",
    "variant": null,
-   "price": 330500,
+   "price": 330000,
    "chips": [
     "Bosch CX · 500 Wh",
     "140 mm",
@@ -1976,7 +1976,7 @@
    "name": "Scott Voltage eRIDE 900 Tuned",
    "category": "E-Bikes",
    "variant": null,
-   "price": 779000,
+   "price": 778800,
    "chips": [
     "Motor TQ 50 Nm",
     "Carbono",
@@ -2014,6 +2014,92 @@
    ],
    "description": null,
    "imageUrl": "https://TU-DOMINIO/img/bicis/scott-voltage-eride-900.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-roxter-20-naranja",
+   "name": "Scott Roxter 20",
+   "category": "Niños Scott",
+   "variant": "Naranja",
+   "price": 36900,
+   "chips": [
+    "Aro 20",
+    "Shimano 7 vel.",
+    "Freno de disco hidráulico"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "20"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aluminio 6061"
+    },
+    {
+     "label": "Suspensión",
+     "value": "SR Suntour XCT-JR, 63 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano, 7 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "Tektro, disco hidráulico, rotor de 160 mm"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Aleación, neumáticos Kenda Karma2 20×2.2″"
+    },
+    {
+     "label": "Estatura",
+     "value": "Desde 115 cm"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-roxter-20-naranja.webp",
+   "stock": null
+  },
+  {
+   "id": "scott-contessa-24",
+   "name": "Scott Contessa 24",
+   "category": "Niños Scott",
+   "variant": "",
+   "price": 34900,
+   "chips": [
+    "Aro 24",
+    "Shimano Tourney 8 vel.",
+    "Frenos V-brake"
+   ],
+   "specs": [
+    {
+     "label": "Aro",
+     "value": "24"
+    },
+    {
+     "label": "Cuadro",
+     "value": "Aleación de aluminio, cuadro bajo"
+    },
+    {
+     "label": "Suspensión",
+     "value": "SR Suntour XCT-JR 24, 50 mm"
+    },
+    {
+     "label": "Transmisión",
+     "value": "Shimano Tourney, 8 velocidades"
+    },
+    {
+     "label": "Frenos",
+     "value": "V-brake Tektro"
+    },
+    {
+     "label": "Ruedas",
+     "value": "Neumáticos Kenda Booster"
+    }
+   ],
+   "description": null,
+   "imageUrl": "https://TU-DOMINIO/img/bicis/scott-contessa-24.webp",
    "stock": null
   }
  ]
