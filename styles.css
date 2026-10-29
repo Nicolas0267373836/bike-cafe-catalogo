@@ -3,18 +3,18 @@
    a pantalla completa para pasar bici por bici con el dedo. */
 
 :root {
-  --espresso: #111111;
-  --tostado: #241b16;
-  --grano: #493324;
-  --humo: #cbbfb7;
+  --espresso: #04080b;
+  --tostado: #10161a;
+  --grano: #30383d;
+  --humo: #a9b6be;
   --leche: #ffffff;
   --porcelana: #ffffff;
-  --espuma: #e7ded8;
-  --tinta: #171412;
-  --tinta-suave: #6e5c51;
-  --crema: #d8c0ad;
-  --crema-honda: #704b38;
-  --plato-borde: #eee9e5;
+  --espuma: #e2e6e8;
+  --tinta: #04080b;
+  --tinta-suave: #606b73;
+  --crema: #c4a98f;
+  --crema-honda: #6b4b38;
+  --plato-borde: #eceff1;
 
   --f-display: "Big Shoulders", "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
   --f-texto: "Figtree", ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -57,7 +57,7 @@ html:not(.js) [data-solo-js] { display: none !important; }
 
 /* Botones */
 .boton {
-  --bg: var(--crema-honda); --fg: var(--porcelana); --bd: transparent;
+  --bg: var(--espresso); --fg: var(--porcelana); --bd: transparent;
   display: inline-flex; align-items: center; justify-content: center; gap: 0.5em;
   min-height: 48px; padding: 0.7rem 1.2rem;
   border: 1.5px solid var(--bd); border-radius: 999px;
@@ -69,9 +69,9 @@ html:not(.js) [data-solo-js] { display: none !important; }
 .boton:hover { transform: translateY(-2px); box-shadow: 0 12px 24px -14px rgba(0, 0, 0, 0.6); }
 .boton:active { transform: scale(0.97); box-shadow: none; }
 .boton:focus-visible { border-radius: 999px; }
-.boton--crema:hover { --bg: var(--grano); }
+.boton--crema:hover { --bg: var(--crema-honda); }
 .boton--wa { --bg: var(--tinta); --fg: var(--leche); }
-.boton--wa:hover { --bg: #000; }
+.boton--wa:hover { --bg: var(--crema-honda); }
 .boton--chico { min-height: 42px; padding: 0.5rem 1rem; font-size: 0.92rem; }
 .boton--grande { min-height: 56px; padding: 0.9rem 1.6rem; font-size: 1.05rem; }
 
@@ -90,21 +90,83 @@ html:not(.js) [data-solo-js] { display: none !important; }
 .cabecera__scott strong { color: var(--leche); letter-spacing: 0.08em; }
 .cabecera .boton { --anillo: var(--crema); }
 
-/* Portada */
+/* Portada: noche de estudio. El fondo es el mismo negro azulado de la foto,
+   así la bici flota sin recuadro; una luz fría la sigue con el puntero. */
 .portada {
-  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1.5rem 2rem;
-  padding: clamp(2rem, 5vw, 3.5rem) max(var(--margen), calc((100% - var(--ancho)) / 2)) clamp(1.75rem, 4vw, 2.75rem);
-  background: var(--espresso); color: var(--leche);
+  --noche: var(--espresso);
+  --plata: var(--humo);
+  --lado: max(var(--margen), calc((100% - var(--ancho)) / 2));
+  --f-portada: "Bricolage Grotesque", var(--f-texto);
+  --mx: 78%; --my: 8%;
+  position: relative; isolation: isolate; overflow: hidden;
+  display: grid; align-items: center;
+  min-height: clamp(560px, calc(100svh - 68px), 900px);
+  padding: clamp(3rem, 7vw, 5rem) var(--lado);
+  background: var(--noche); color: #fff;
+  --anillo: #fff;
 }
-.portada__titulo { font-size: clamp(3rem, 9vw, 7.5rem); font-weight: 900; text-transform: uppercase; line-height: 0.82; }
-.portada__info { margin-top: 1rem; max-width: 46ch; font-size: 1.1rem; color: var(--humo); }
-.portada__info strong { color: var(--crema); }
-.portada .boton { --anillo: var(--crema); }
+.portada__luz {
+  position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(42rem 30rem at var(--mx) var(--my), rgba(190, 220, 235, 0.13), transparent 70%),
+    radial-gradient(60rem 18rem at 70% 104%, rgba(120, 170, 195, 0.08), transparent 70%);
+}
+.portada__foto {
+  position: absolute; z-index: -2; top: 0; bottom: 0; right: -1%;
+  width: min(84%, 1400px);
+  -webkit-mask-image: linear-gradient(to right, transparent 4%, #000 26%);
+  mask-image: linear-gradient(to right, transparent 4%, #000 26%);
+}
+.portada__foto img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
+
+.portada__texto { position: relative; max-width: 40rem; }
+.portada__sello {
+  font-size: 0.8rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--plata);
+}
+.portada__sello span { margin-inline: 0.5em; }
+.portada__titulo {
+  margin-top: 1.1rem;
+  font-family: var(--f-portada); font-weight: 750; font-variation-settings: "opsz" 96;
+  font-size: clamp(3rem, 6.6vw, 6rem); line-height: 0.96; letter-spacing: -0.03em; word-spacing: 0.04em;
+  text-transform: none; text-wrap: balance;
+}
+.portada__linea { display: block; overflow: clip; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.portada__linea > span { display: inline-block; }
+.portada__acciones { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: clamp(1.75rem, 3vw, 2.5rem); }
+.portada__datos {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 0; margin-top: clamp(3rem, 7vw, 5.5rem);
+  font-size: 0.85rem; font-weight: 500; letter-spacing: 0.08em; color: var(--plata);
+}
+.portada__datos li + li::before { content: ""; display: inline-block; width: 3px; height: 3px; margin: 0 0.9em; border-radius: 50%; background: currentColor; vertical-align: 0.25em; opacity: 0.7; }
+.portada__salto { display: none; }
+.portada__datos [data-total] { color: #fff; font-variant-numeric: tabular-nums; }
+
+.boton--leche { --bg: #fff; --fg: var(--noche, #04080b); }
+.boton--leche:hover { --bg: var(--crema); }
+.boton--linea { --bg: transparent; --fg: #fff; --bd: rgba(255, 255, 255, 0.42); }
+.boton--linea:hover { --bg: rgba(255, 255, 255, 0.08); --bd: #fff; }
+.icono--empuja { transition: transform 0.25s var(--ease); }
+.boton:hover .icono--empuja { transform: translateX(4px); }
+
+/* Secuencia de entrada: la luz se enciende, la bici rueda a su sitio y el texto sube línea a línea. */
+@media (prefers-reduced-motion: no-preference) {
+  .portada__luz { animation: encender 1.6s ease-out both; }
+  .portada__foto { animation: rodar 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both; }
+  .portada__sello { animation: subir 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both; }
+  .portada__linea > span { animation: asomar 1s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: calc(0.25s + var(--i, 0) * 0.1s); }
+  .portada__linea + .portada__linea > span { --i: 1; }
+  .portada__acciones { animation: subir 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both; }
+  .portada__datos { animation: subir 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.75s both; }
+  @keyframes encender { from { opacity: 0; } }
+  @keyframes rodar { from { opacity: 0; transform: translateX(7%); filter: blur(6px) brightness(0.4); } }
+  @keyframes asomar { from { transform: translateY(105%); } }
+  @keyframes subir { from { opacity: 0; transform: translateY(14px); } }
+}
 
 /* Cadena del logo */
 .cadena { position: relative; height: 34px; overflow: hidden; background: linear-gradient(to bottom, var(--espresso) 50%, var(--leche) 50%); }
 .cadena__svg { width: calc(100% + 180px); max-width: none; height: 34px; transform: translate3d(calc(var(--avance, 0) * -1px), 0, 0); }
-.cadena__ext { fill: var(--crema); }
+.cadena__ext { fill: var(--espuma); }
 .cadena__int { fill: var(--crema-honda); }
 .cadena__pin { fill: var(--espresso); }
 
@@ -130,7 +192,7 @@ html:not(.js) .filtros { display: none; }
 .filtro span { min-width: 1.5rem; padding: 0.05rem 0.4rem; border-radius: 999px; background: var(--leche); font-size: 0.75rem; text-align: center; }
 .filtro:hover { border-color: var(--tinta); }
 .filtro[aria-pressed="true"] { background: var(--tinta); border-color: var(--tinta); color: var(--leche); }
-.filtro[aria-pressed="true"] span { background: var(--crema); color: var(--espresso); }
+.filtro[aria-pressed="true"] span { background: var(--porcelana); color: var(--espresso); }
 
 /* Grupos y rejilla */
 .catalogo { max-width: calc(var(--ancho) + 2 * var(--margen)); margin-inline: auto; padding: 0 var(--margen) clamp(3rem, 7vw, 5rem); }
@@ -151,7 +213,7 @@ html:not(.js) .filtros { display: none; }
 .bici__abrir { display: block; border-radius: 14px; }
 .bici__foto {
   display: block; aspect-ratio: 3 / 2; border-radius: 14px; overflow: hidden; isolation: isolate;
-  background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #faf8f6 55%, var(--plato-borde) 100%);
+  background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #f6f7f8 55%, var(--plato-borde) 100%);
 }
 .bici__foto img { width: 100%; height: 100%; object-fit: cover; mix-blend-mode: multiply; transition: transform 0.5s var(--ease); }
 .bici__cuerpo { display: flex; flex-direction: column; flex: 1; gap: 0.5rem; padding: 0.9rem 0.6rem 0.4rem; }
@@ -166,7 +228,7 @@ html:not(.js) .filtros { display: none; }
 .bici__precio .precio--largo { font-size: 1.8rem; }
 .bici__pie .boton { flex-shrink: 0; padding-inline: 1rem; }
 @media (hover: hover) {
-  .bici:hover { transform: translateY(-3px); box-shadow: 0 24px 50px -30px rgba(29, 22, 18, 0.55); }
+  .bici:hover { transform: translateY(-3px); box-shadow: 0 24px 50px -30px rgba(4, 8, 11, 0.3); }
   .bici:hover .bici__foto img { transform: translateX(2%) scale(1.02); }
 }
 
@@ -203,7 +265,7 @@ html:not(.js) .filtros { display: none; }
 .vista__zoom output { min-width: 52px; text-align: center; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .vista__img {
   width: auto; height: 100%; max-height: 100%; max-width: 100%; aspect-ratio: 3 / 2; object-fit: contain;
-  border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #faf8f6 55%, var(--plato-borde) 100%);
+  border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #f6f7f8 55%, var(--plato-borde) 100%);
 }
 .vista__img.es-entrando { animation: entrar 0.4s var(--ease) both; }
 @keyframes entrar { from { opacity: 0; transform: translateX(calc(var(--dir, 1) * 6%)); } }
@@ -216,7 +278,7 @@ html:not(.js) .filtros { display: none; }
 .vista__titulo .bici__marca { color: var(--humo); }
 .vista__color { margin-top: 0.3rem; color: var(--humo); }
 .vista__color:empty { display: none; }
-.vista__precio .precio { font-size: clamp(2.6rem, 5vw, 4rem); color: var(--crema); }
+.vista__precio .precio { font-size: clamp(2.6rem, 5vw, 4rem); color: var(--leche); }
 .ficha-tecnica { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.25rem; }
 .ficha-tecnica > div { padding: 0.35rem 0; border-bottom: 1px solid var(--grano); }
 .ficha-tecnica dt { font-size: 0.75rem; color: var(--humo); }
@@ -244,10 +306,22 @@ html:not(.js) .filtros { display: none; }
 }
 @media (max-width: 700px) {
   .cabecera__scott { display: none; }
-  .cabecera .boton { margin-left: auto; }
   .marca__simbolo { width: 40px; height: 38px; }
   .marca__texto { width: 100px; height: 16px; }
-  .portada .boton { width: 100%; }
+  .cabecera__presentar { margin-left: auto; }
+  .portada { min-height: 0; align-items: start; padding-top: 0; --mx: 70%; --my: 4%; }
+  .portada__foto {
+    position: relative; inset: auto; width: auto; height: 82vw;
+    margin: 0 calc(var(--margen) * -1) -12vw;
+    -webkit-mask-image: linear-gradient(to bottom, #000 64%, transparent 98%);
+    mask-image: linear-gradient(to bottom, #000 64%, transparent 98%);
+  }
+  .portada__foto img { object-position: 60% 50%; }
+  .portada__titulo { margin-top: 0.8rem; }
+  .portada__acciones .boton { flex: 1 1 100%; }
+  .portada__datos { margin-top: 2.25rem; font-size: 0.8rem; }
+  .portada__salto { display: block; flex-basis: 100%; }
+  .portada__salto::before, .portada__salto + li::before { display: none !important; }
   .vista__panel { grid-template-rows: auto auto minmax(0, 1fr); overflow-y: auto; }
   .vista__foto { margin: 0.75rem 0; }
   .vista__lienzo { height: auto; aspect-ratio: 3 / 2; }

@@ -33,6 +33,24 @@
   };
   botones.forEach((b) => b.addEventListener('click', () => filtrar(b.dataset.filtro)));
 
+  /* Portada: total de modelos publicados y luz que sigue al puntero */
+  const total = $('[data-total]');
+  const contar = () => { if (total && bicis.length) total.textContent = bicis.length; };
+  contar();
+  const portada = $('[data-portada]');
+  if (portada && !sinMov.matches && window.matchMedia('(pointer: fine)').matches) {
+    let cuadro = 0;
+    portada.addEventListener('pointermove', (e) => {
+      cancelAnimationFrame(cuadro);
+      cuadro = requestAnimationFrame(() => {
+        const r = portada.getBoundingClientRect();
+        portada.style.setProperty('--mx', `${(((e.clientX - r.left) / r.width) * 100).toFixed(1)}%`);
+        portada.style.setProperty('--my', `${(((e.clientY - r.top) / r.height) * 100).toFixed(1)}%`);
+      });
+    });
+    portada.addEventListener('pointerleave', () => { portada.style.removeProperty('--mx'); portada.style.removeProperty('--my'); });
+  }
+
   /* Vista a pantalla completa */
   const vista = $('#vista');
   const v = {
@@ -189,6 +207,7 @@
     botones.forEach(b=>b.addEventListener('click',()=>filtrar(b.dataset.filtro)));
     if(publicado)bicis.forEach(b=>{const l=$('.boton--wa',b);if(l)l.href=enlaceWA(b);});
     filtrar(botones.some(b=>b.dataset.filtro===filtro)?filtro:'todas',false);
+    contar();
     if(location.hash)desdeHash();
   });
   /* Cadena del logo */

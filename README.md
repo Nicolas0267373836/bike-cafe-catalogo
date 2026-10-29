@@ -2,7 +2,7 @@
 
 Catálogo para **mostrar en visitas a clientes** desde el celular o una tablet. Tiene 67 bicicletas (18 Raleigh, 44 Scott y 5 Megamo) con foto, precio y datos clave, filtros por categoría y un modo **Presentar** a pantalla completa para pasar bici por bici.
 
-Paleta visual: negro, marrón y blanco. Los colores se definen en las variables de `styles.css`; la lectura del inventario y los controles del catálogo conservan su comportamiento.
+Paleta visual unificada con la portada Scott en estudio: negro `#04080b` y blanco como primarios, grises neutros para superficies y marrón `#6b4b38` como acento secundario. Los colores se definen en las variables de `styles.css`; la lectura del inventario, los precios y el zoom conservan su comportamiento.
 
 - Proyecto WebDom independiente (Bike Café, Instagram @bikecafespm). Es estático, sin build: se abre `index.html` con doble clic.
 - La versión anterior («La carta», 15 bicis con Scott y Megamo) quedó guardada en `version-1-carta/`.

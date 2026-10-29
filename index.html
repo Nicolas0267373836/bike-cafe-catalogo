@@ -6,7 +6,7 @@
   <title>Bike Café · Catálogo de bicicletas</title>
   <script>document.documentElement.classList.add('js');</script>
   <meta name="description" content="Catálogo de bicicletas de Bike Café en San Pedro de Macorís: Raleigh, Scott y Megamo, con foto y precio en RD$.">
-  <meta name="theme-color" content="#111111">
+  <meta name="theme-color" content="#04080b">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_DO">
   <meta property="og:title" content="Catálogo de bicicletas · Bike Café">
@@ -18,7 +18,7 @@
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,600..900&family=Figtree:wght@400..700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,600..900&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=Figtree:wght@400..700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-whatsapp="18297448771">
@@ -29,16 +29,27 @@
       <svg class="marca__texto" viewBox="148 770 782 118" aria-hidden="true" focusable="false"><use href="#lx"/></svg>
     </a>
     <p class="cabecera__scott">Distribuidor autorizado <strong>SCOTT</strong> · San Pedro de Macorís</p>
-    <a class="boton boton--crema boton--chico" href="https://wa.me/18297448771?text=Hola%2C%20Bike%20Caf%C3%A9.%20Vi%20el%20cat%C3%A1logo%20de%20bicicletas%20y%20tengo%20una%20pregunta." target="_blank" rel="noopener"><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg><span>WhatsApp</span></a>
+    <button class="boton boton--linea boton--chico cabecera__presentar" type="button" data-presentar data-solo-js><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-fichas"/></svg><span>Presentar</span></button>
   </header>
 
   <main id="arriba">
-    <section class="portada" aria-labelledby="titulo">
+    <section class="portada" aria-labelledby="titulo" data-portada>
+      <div class="portada__luz" aria-hidden="true"></div>
+      <picture class="portada__foto" aria-hidden="true">
+        <source media="(max-width: 700px)" srcset="img/portada-scott-960.webp">
+        <img src="img/portada-scott.webp" width="1792" height="1184" alt="" fetchpriority="high" decoding="async">
+      </picture>
       <div class="portada__texto">
-        <h1 class="portada__titulo" id="titulo">Catálogo de bicicletas</h1>
-        <p class="portada__info">Productos de Bike Café. Consulta sus precios y disponibilidad.</p>
+        <p class="portada__sello">Bike Café <span aria-hidden="true">·</span> Catálogo</p>
+        <h1 class="portada__titulo" id="titulo"><span class="portada__linea"><span>Tu próxima bici</span></span> <span class="portada__linea"><span>está aquí.</span></span></h1>
+        <div class="portada__acciones">
+          <a class="boton boton--leche boton--grande" href="#catalogo"><span>Ver catálogo</span><svg class="icono icono--empuja" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></a>
+          <a class="boton boton--linea boton--grande" href="https://wa.me/18297448771?text=Hola%2C%20Bike%20Caf%C3%A9.%20Vi%20el%20cat%C3%A1logo%20de%20bicicletas%20y%20tengo%20una%20pregunta." target="_blank" rel="noopener"><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg><span>WhatsApp</span></a>
+        </div>
+        <ul class="portada__datos" aria-label="Lo que hay en el catálogo">
+          <li>Raleigh</li><li>Scott</li><li>Megamo</li><li class="portada__salto" aria-hidden="true"></li><li><span data-total>67</span> modelos</li><li>Precios en RD$</li>
+        </ul>
       </div>
-      <button class="boton boton--crema boton--grande" type="button" data-presentar data-solo-js><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg><span>Presentar</span></button>
     </section>
 
     <div class="cadena cadena--uno" aria-hidden="true">
@@ -52,7 +63,7 @@
       <div class="filtros__pista"><button type="button" class="filtro" data-filtro="todas" aria-pressed="true">Todas <span>67</span></button><button type="button" class="filtro" data-filtro="primera" aria-pressed="false">Primera bici <span>5</span></button><button type="button" class="filtro" data-filtro="ninos" aria-pressed="false">Niños 20″ y 24″ <span>3</span></button><button type="button" class="filtro" data-filtro="juvenil" aria-pressed="false">MTB juvenil <span>6</span></button><button type="button" class="filtro" data-filtro="montana" aria-pressed="false">Montaña 29″ <span>2</span></button><button type="button" class="filtro" data-filtro="paseo" aria-pressed="false">Paseo <span>2</span></button><button type="button" class="filtro" data-filtro="hardtail" aria-pressed="false">MTB Scott · Hardtail <span>11</span></button><button type="button" class="filtro" data-filtro="doble" aria-pressed="false">Doble suspensión Scott <span>13</span></button><button type="button" class="filtro" data-filtro="ruta" aria-pressed="false">Ruta y carretera Scott <span>10</span></button><button type="button" class="filtro" data-filtro="kids" aria-pressed="false">Niños Scott <span>2</span></button><button type="button" class="filtro" data-filtro="ebike" aria-pressed="false">E-Bikes <span>13</span></button></div>
     </nav>
 
-    <div class="catalogo">
+    <div class="catalogo" id="catalogo">
       <section class="grupo" id="primera" data-seccion="primera" aria-labelledby="primera-titulo">
         <header class="grupo__cabeza">
           <h2 class="grupo__titulo" id="primera-titulo">Primera bici</h2>
