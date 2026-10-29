@@ -44,7 +44,76 @@
   let i = 0;
   let disparador = null;
 
+  /* Zoom de la foto: botones, arrastre y pellizco dentro de la vista. */
+  const lienzo = $('.vista__lienzo', vista);
+  const nivelZoom = $('[data-zoom-nivel]', vista);
+  const menosZoom = $('[data-zoom="menos"]', vista);
+  const masZoom = $('[data-zoom="mas"]', vista);
+  let zoom = 1, panX = 0, panY = 0;
+  const punteros = new Map();
+  let inicio = null, pellizco = null, gestoMultiple = false;
+  const limitar = (n, min, max) => Math.min(max, Math.max(min, n));
+  const aplicarZoom = (nuevo, x = panX, y = panY) => {
+    zoom = limitar(nuevo, 1, 3);
+    const limiteX = Math.max(0, (v.img.offsetWidth * zoom - lienzo.clientWidth) / 2);
+    const limiteY = Math.max(0, (v.img.offsetHeight * zoom - lienzo.clientHeight) / 2);
+    panX = limitar(x, -limiteX, limiteX); panY = limitar(y, -limiteY, limiteY);
+    v.img.classList.remove('es-entrando');
+    v.img.style.transform = `translate(${panX}px, ${panY}px) scale(${zoom})`;
+    lienzo.classList.toggle('es-acercada', zoom > 1);
+    nivelZoom.value = `${Math.round(zoom * 100)} %`;
+    menosZoom.disabled = zoom <= 1; masZoom.disabled = zoom >= 3;
+  };
+  const reiniciarZoom = () => {
+    punteros.forEach((_p, id) => { if (lienzo.hasPointerCapture(id)) lienzo.releasePointerCapture(id); });
+    punteros.clear(); inicio = null; pellizco = null; gestoMultiple = false;
+    lienzo.classList.remove('es-arrastrando');
+    aplicarZoom(1, 0, 0);
+  };
+  const puntoMedio = (a, b) => {
+    const r = lienzo.getBoundingClientRect();
+    return { x: (a.x + b.x) / 2 - r.left - r.width / 2, y: (a.y + b.y) / 2 - r.top - r.height / 2 };
+  };
+  lienzo.addEventListener('pointerdown', (e) => {
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    punteros.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    lienzo.setPointerCapture(e.pointerId);
+    if (punteros.size === 1) inicio = { x: e.clientX, y: e.clientY, panX, panY };
+    if (punteros.size === 2) {
+      gestoMultiple = true;
+      const [a, b] = [...punteros.values()];
+      pellizco = { distancia: Math.hypot(a.x - b.x, a.y - b.y), zoom, panX, panY, centro: puntoMedio(a, b) };
+    }
+    lienzo.classList.toggle('es-arrastrando', zoom > 1);
+  });
+  lienzo.addEventListener('pointermove', (e) => {
+    if (!punteros.has(e.pointerId)) return;
+    punteros.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (punteros.size === 2 && pellizco?.distancia > 0) {
+      const [a, b] = [...punteros.values()], centro = puntoMedio(a, b);
+      const nuevo = limitar(pellizco.zoom * Math.hypot(a.x - b.x, a.y - b.y) / pellizco.distancia, 1, 3);
+      const ratio = nuevo / pellizco.zoom;
+      aplicarZoom(nuevo, (pellizco.panX - pellizco.centro.x) * ratio + centro.x, (pellizco.panY - pellizco.centro.y) * ratio + centro.y);
+    } else if (punteros.size === 1 && inicio && zoom > 1 && !gestoMultiple) {
+      aplicarZoom(zoom, inicio.panX + e.clientX - inicio.x, inicio.panY + e.clientY - inicio.y);
+    }
+  });
+  const terminarGesto = (e) => {
+    if (!punteros.has(e.pointerId)) return;
+    const dx = inicio ? e.clientX - inicio.x : 0, dy = inicio ? e.clientY - inicio.y : 0;
+    const deslizar = e.type === 'pointerup' && e.pointerType !== 'mouse' && punteros.size === 1 && !gestoMultiple && zoom === 1 && Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy);
+    punteros.delete(e.pointerId);
+    if (lienzo.hasPointerCapture(e.pointerId)) lienzo.releasePointerCapture(e.pointerId);
+    if (!punteros.size) { inicio = null; pellizco = null; gestoMultiple = false; lienzo.classList.remove('es-arrastrando'); }
+    if (deslizar) mover(dx < 0 ? 1 : -1);
+  };
+  lienzo.addEventListener('pointerup', terminarGesto);
+  lienzo.addEventListener('pointercancel', terminarGesto);
+  lienzo.addEventListener('dblclick', () => aplicarZoom(zoom > 1 ? 1 : 2, 0, 0));
+  window.addEventListener('resize', () => { if (vista.open) aplicarZoom(zoom); });
+
   const pintar = (dir = 0) => {
+    reiniciarZoom();
     const b = lista[i];
     const foto = $('img', b);
     v.img.src = foto.currentSrc || foto.src;
@@ -76,6 +145,7 @@
   };
   const cerrar = () => {
     if (!vista.open) return;
+    reiniciarZoom();
     vista.close();
     document.body.style.overflow = '';
     if (publicado && location.hash) history.replaceState(null, '', location.pathname+location.search);
@@ -92,6 +162,8 @@
   });
   vista.addEventListener('cancel', (e) => { e.preventDefault(); cerrar(); });
   vista.addEventListener('click', (e) => {
+    const control = e.target.closest('[data-zoom]');
+    if (control) aplicarZoom(control.dataset.zoom === 'ajustar' ? 1 : zoom + (control.dataset.zoom === 'mas' ? 0.5 : -0.5));
     const ir = e.target.closest('[data-ir]');
     if (ir) mover(Number(ir.dataset.ir));
     if (e.target.closest('[data-cerrar]')) cerrar();
@@ -99,17 +171,9 @@
   vista.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight') { e.preventDefault(); mover(1); }
     if (e.key === 'ArrowLeft') { e.preventDefault(); mover(-1); }
-  });
-  // Deslizar con el dedo sobre la foto
-  let x0 = null; let y0 = null;
-  const zona = $('.vista__foto', vista);
-  zona.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
-  zona.addEventListener('touchend', (e) => {
-    if (x0 === null) return;
-    const dx = e.changedTouches[0].clientX - x0;
-    const dy = e.changedTouches[0].clientY - y0;
-    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) mover(dx < 0 ? 1 : -1);
-    x0 = null;
+    if (['+', '=', '-', '0'].includes(e.key)) {
+      e.preventDefault(); aplicarZoom(e.key === '0' ? 1 : zoom + (e.key === '-' ? -0.5 : 0.5));
+    }
   });
 
   const desdeHash = () => {

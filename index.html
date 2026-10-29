@@ -1136,7 +1136,15 @@
         <button class="vista__cerrar" type="button" data-cerrar aria-label="Cerrar"><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-cerrar"/></svg></button>
       </div>
       <div class="vista__foto">
-        <img class="vista__img" alt="" width="900" height="600">
+        <div class="vista__lienzo" aria-label="Imagen ampliable; al acercar puedes arrastrarla">
+          <img class="vista__img" alt="" width="900" height="600" draggable="false">
+        </div>
+        <div class="vista__zoom" role="group" aria-label="Zoom de la fotografía">
+          <button type="button" data-zoom="menos" aria-label="Alejar imagen" disabled>−</button>
+          <output data-zoom-nivel aria-live="polite" aria-label="Nivel de zoom">100 %</output>
+          <button type="button" data-zoom="mas" aria-label="Acercar imagen">+</button>
+          <button type="button" data-zoom="ajustar" aria-label="Restablecer imagen">Ajustar</button>
+        </div>
         <button class="vista__nav vista__nav--ant" type="button" data-ir="-1" aria-label="Bici anterior"><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-flecha-izq"/></svg></button>
         <button class="vista__nav vista__nav--sig" type="button" data-ir="1" aria-label="Bici siguiente"><svg class="icono" aria-hidden="true" focusable="false"><use href="#i-flecha"/></svg></button>
       </div>

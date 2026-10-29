@@ -13,6 +13,7 @@ Paleta visual: negro, marrón y blanco. Los colores se definen en las variables 
 2. Pasa de bici deslizando la foto con el dedo, o con las flechas (← → en el teclado).
 3. Si eliges un filtro antes (por ejemplo *MTB juvenil*), «Presentar» y las flechas recorren solo esa categoría.
 4. **Preguntar por WhatsApp** abre el chat de Bike Café (829-744-8771) con el modelo y el precio ya escritos.
+5. En la vista ampliada, usa **+**, **−** y **Ajustar** para acercar la foto hasta 3×. Arrástrala para explorar los componentes; en pantallas táctiles también puedes ampliar con dos dedos. Doble clic alterna entre 1× y 2×. Al cambiar de bici o cerrar se restablece el encuadre. El zoom utiliza la resolución de la fotografía disponible.
 
 ## Categorías
 

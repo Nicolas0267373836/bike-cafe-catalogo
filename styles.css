@@ -192,6 +192,15 @@ html:not(.js) .filtros { display: none; }
 }
 .vista__cerrar:hover, .vista__nav:hover { background: var(--grano); }
 .vista__foto { position: relative; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; min-height: 0; margin: 0.75rem 0; touch-action: pan-y; }
+.vista__lienzo { display: grid; place-items: center; width: 100%; height: 100%; min-width: 0; min-height: 0; overflow: hidden; border-radius: 24px; touch-action: none; }
+.vista__lienzo.es-acercada { cursor: grab; }
+.vista__lienzo.es-arrastrando { cursor: grabbing; }
+.vista__lienzo .vista__img { user-select: none; -webkit-user-drag: none; transform-origin: center; }
+.vista__zoom { position: absolute; z-index: 2; bottom: 8px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 4px; padding: 4px; border: 1px solid var(--grano); border-radius: 999px; background: var(--espresso); color: var(--leche); }
+.vista__zoom button { min-width: 44px; min-height: 44px; padding: 6px 12px; border: 0; border-radius: 999px; background: var(--tostado); cursor: pointer; font-weight: 700; }
+.vista__zoom button:hover { background: var(--grano); }
+.vista__zoom button:disabled { opacity: 0.4; cursor: default; }
+.vista__zoom output { min-width: 52px; text-align: center; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .vista__img {
   width: auto; height: 100%; max-height: 100%; max-width: 100%; aspect-ratio: 3 / 2; object-fit: contain;
   border-radius: 24px; background: radial-gradient(120% 95% at 50% 40%, #fff 0%, #faf8f6 55%, var(--plato-borde) 100%);
@@ -241,7 +250,8 @@ html:not(.js) .filtros { display: none; }
   .portada .boton { width: 100%; }
   .vista__panel { grid-template-rows: auto auto minmax(0, 1fr); overflow-y: auto; }
   .vista__foto { margin: 0.75rem 0; }
-  .vista__img { width: 100%; height: auto; }
+  .vista__lienzo { height: auto; aspect-ratio: 3 / 2; }
+  .vista__img { width: 100%; height: 100%; }
   .vista__nav { width: 44px; height: 44px; margin-top: -22px; }
   .vista__nav--ant { left: 8px; }
   .vista__nav--sig { right: 8px; }
