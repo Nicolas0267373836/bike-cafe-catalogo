@@ -1,5 +1,5 @@
 /* Bike Café · catálogo simple: filtros, vista a pantalla completa
-   («Presentar») con flechas, teclado y deslizar, y cadena con el scroll. */
+   («Presentar») con flechas, teclado, búsqueda y zoom. */
 (async () => {
   'use strict';
   await window.catalogReady;
@@ -13,7 +13,18 @@
   let bicis = Array.from(document.querySelectorAll('[data-bici]'));
   let secciones = Array.from(document.querySelectorAll('[data-seccion]'));
   let filtro = 'todas';
-  const visibles = () => bicis.filter((b) => filtro === 'todas' || b.dataset.grupo === filtro);
+  const buscador = $('#buscar-bici');
+  const limpiarBusqueda = $('[data-limpiar-busqueda]');
+  const resultados = $('[data-resultados]');
+  const sinResultados = $('[data-sin-resultados]');
+  const normalizar = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('es').trim();
+  let palabras = [];
+  const coincide = (b) => {
+    if (filtro !== 'todas' && b.dataset.grupo !== filtro) return false;
+    const texto = normalizar([b.dataset.nombre, b.dataset.categoria, $('.bici__color', b)?.textContent || '', $('.bici__chips', b)?.textContent || ''].join(' '));
+    return palabras.every((p) => texto.includes(p));
+  };
+  const visibles = () => bicis.filter(coincide);
 
   const urlBici = (id) => `${location.origin}${location.pathname}${location.search}#${id}`;
   const enlaceWA = (b) => {
@@ -27,11 +38,29 @@
   const filtrar = (valor,scroll=true) => {
     filtro = valor;
     botones.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filtro === valor)));
-    secciones.forEach((s) => { s.hidden = !(valor === 'todas' || s.dataset.seccion === valor); });
+    bicis.forEach((b) => { b.hidden = !coincide(b); });
+    secciones.forEach((s) => { s.hidden = !s.querySelector('[data-bici]:not([hidden])'); });
+    const cantidad = visibles().length;
+    resultados.textContent = `${cantidad} ${cantidad === 1 ? 'bicicleta' : 'bicicletas'}`;
+    sinResultados.hidden = cantidad !== 0;
+    limpiarBusqueda.hidden = !buscador.value;
+    $$('[data-presentar]').forEach((b) => { b.disabled = cantidad === 0; });
     const cat = $('.catalogo');
-    if (scroll && cat && cat.getBoundingClientRect().top < 0) window.scrollTo({ top: window.scrollY + cat.getBoundingClientRect().top - 70, behavior: 'instant' });
+    if (scroll && cat && cat.getBoundingClientRect().top < 0) window.scrollTo({ top: window.scrollY + cat.getBoundingClientRect().top - $('.filtros').offsetHeight - 16, behavior: 'instant' });
   };
   botones.forEach((b) => b.addEventListener('click', () => filtrar(b.dataset.filtro)));
+  buscador.addEventListener('input', () => {
+    palabras = normalizar(buscador.value).split(/\s+/).filter(Boolean);
+    filtrar(filtro, false);
+  });
+  const limpiar = (todo = false) => {
+    buscador.value = ''; palabras = [];
+    filtrar(todo ? 'todas' : filtro, false);
+    buscador.focus({ preventScroll: true });
+  };
+  limpiarBusqueda.addEventListener('click', () => limpiar());
+  $('[data-restablecer-busqueda]').addEventListener('click', () => limpiar(true));
+  filtrar(filtro, false);
 
   /* Portada: total de modelos publicados y luz que sigue al puntero */
   const total = $('[data-total]');
@@ -210,14 +239,4 @@
     contar();
     if(location.hash)desdeHash();
   });
-  /* Cadena del logo */
-  const cadena = $('.cadena');
-  if (cadena && !sinMov.matches) {
-    let pendiente = false;
-    window.addEventListener('scroll', () => {
-      if (pendiente) return;
-      pendiente = true;
-      requestAnimationFrame(() => { pendiente = false; cadena.style.setProperty('--avance', ((window.scrollY * 0.5) % 89.88).toFixed(2)); });
-    }, { passive: true });
-  }
 })();

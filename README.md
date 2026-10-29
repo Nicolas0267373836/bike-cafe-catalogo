@@ -4,6 +4,8 @@ Catálogo para **mostrar en visitas a clientes** desde el celular o una tablet. 
 
 Paleta visual unificada con la portada Scott en estudio: negro `#04080b` y blanco como primarios, grises neutros para superficies y marrón `#6b4b38` como acento secundario. Los colores se definen en las variables de `styles.css`; la lectura del inventario, los precios y el zoom conservan su comportamiento.
 
+La portada conecta con el catálogo mediante un borde discreto, sin cadenas decorativas. El buscador filtra por modelo, marca, categoría, color y datos clave; combina palabras sin distinguir mayúsculas ni tildes y respeta la categoría seleccionada. **Limpiar** borra el texto; **Ver todas las bicicletas** restablece también la categoría. Presentar recorre solo los resultados de la búsqueda.
+
 - Proyecto WebDom independiente (Bike Café, Instagram @bikecafespm). Es estático, sin build: se abre `index.html` con doble clic.
 - La versión anterior («La carta», 15 bicis con Scott y Megamo) quedó guardada en `version-1-carta/`.
 

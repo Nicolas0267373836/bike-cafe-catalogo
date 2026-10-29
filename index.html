@@ -52,17 +52,23 @@
       </div>
     </section>
 
-    <div class="cadena cadena--uno" aria-hidden="true">
-      <svg class="cadena__svg" height="34" focusable="false">
-        <defs><pattern id="cadena-uno" width="89.88" height="34" patternUnits="userSpaceOnUse"><use href="#le" class="cadena__int" transform="translate(-44.94 2) scale(0.13152) translate(-251.9 -477.4)"/><use href="#le" class="cadena__int" transform="translate(44.94 2) scale(0.13152) translate(-251.9 -477.4)"/><use href="#le" class="cadena__ext" transform="translate(0.00 2) scale(0.13152) translate(-251.9 -477.4)"/><g class="cadena__pin"><circle cx="15.20" cy="16.77" r="3.3"/><circle cx="60.14" cy="16.77" r="3.3"/></g></pattern></defs>
-        <rect width="100%" height="34" fill="url(#cadena-uno)"/>
-      </svg>
-    </div>
-
     <nav class="filtros" aria-label="Filtrar por categoría">
+      <div class="busqueda" role="search" aria-label="Buscar en el catálogo">
+        <label class="busqueda__etiqueta" for="buscar-bici">Buscar bicicletas</label>
+        <div class="busqueda__control">
+          <input id="buscar-bici" type="search" placeholder="Modelo, marca o categoría" autocomplete="off" spellcheck="false" aria-describedby="resultados-busqueda">
+          <button type="button" data-limpiar-busqueda hidden>Limpiar</button>
+        </div>
+        <p class="busqueda__estado" id="resultados-busqueda" role="status" aria-live="polite" data-resultados>67 bicicletas</p>
+      </div>
       <div class="filtros__pista"><button type="button" class="filtro" data-filtro="todas" aria-pressed="true">Todas <span>67</span></button><button type="button" class="filtro" data-filtro="primera" aria-pressed="false">Primera bici <span>5</span></button><button type="button" class="filtro" data-filtro="ninos" aria-pressed="false">Niños 20″ y 24″ <span>3</span></button><button type="button" class="filtro" data-filtro="juvenil" aria-pressed="false">MTB juvenil <span>6</span></button><button type="button" class="filtro" data-filtro="montana" aria-pressed="false">Montaña 29″ <span>2</span></button><button type="button" class="filtro" data-filtro="paseo" aria-pressed="false">Paseo <span>2</span></button><button type="button" class="filtro" data-filtro="hardtail" aria-pressed="false">MTB Scott · Hardtail <span>11</span></button><button type="button" class="filtro" data-filtro="doble" aria-pressed="false">Doble suspensión Scott <span>13</span></button><button type="button" class="filtro" data-filtro="ruta" aria-pressed="false">Ruta y carretera Scott <span>10</span></button><button type="button" class="filtro" data-filtro="kids" aria-pressed="false">Niños Scott <span>2</span></button><button type="button" class="filtro" data-filtro="ebike" aria-pressed="false">E-Bikes <span>13</span></button></div>
     </nav>
 
+    <div class="busqueda-vacia" data-sin-resultados hidden>
+      <h2>No encontramos bicicletas</h2>
+      <p>Prueba otro modelo, marca o categoría.</p>
+      <button class="boton" type="button" data-restablecer-busqueda>Ver todas las bicicletas</button>
+    </div>
     <div class="catalogo" id="catalogo">
       <section class="grupo" id="primera" data-seccion="primera" aria-labelledby="primera-titulo">
         <header class="grupo__cabeza">
