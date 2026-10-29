@@ -13,6 +13,22 @@
   let bicis = Array.from(document.querySelectorAll('[data-bici]'));
   let secciones = Array.from(document.querySelectorAll('[data-seccion]'));
   let filtro = 'todas';
+  const pistaFiltros = $('.filtros__pista');
+  const flechasFiltros = $$('[data-mover-filtros]');
+  const actualizarFlechas = () => {
+    const limite = pistaFiltros.scrollWidth - pistaFiltros.clientWidth;
+    flechasFiltros.forEach((b) => {
+      b.disabled = Number(b.dataset.moverFiltros) < 0 ? pistaFiltros.scrollLeft <= 1 : pistaFiltros.scrollLeft >= limite - 1;
+    });
+  };
+  flechasFiltros.forEach((b) => b.addEventListener('click', () => {
+    pistaFiltros.scrollBy({ left: Number(b.dataset.moverFiltros) * Math.max(160, pistaFiltros.clientWidth * 0.75), behavior: sinMov.matches ? 'instant' : 'smooth' });
+  }));
+  pistaFiltros.addEventListener('scroll', actualizarFlechas, { passive: true });
+  new ResizeObserver(actualizarFlechas).observe(pistaFiltros);
+  new MutationObserver(actualizarFlechas).observe(pistaFiltros, { childList: true });
+  document.fonts.ready.then(actualizarFlechas);
+  actualizarFlechas();
   const buscador = $('#buscar-bici');
   const limpiarBusqueda = $('[data-limpiar-busqueda]');
   const resultados = $('[data-resultados]');
